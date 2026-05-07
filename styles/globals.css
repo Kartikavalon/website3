@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+:root {
+  --font-serif: 'Playfair Display', serif;
+  --font-sans: 'Inter', sans-serif;
+}
+
+* {
+  @apply box-border;
+}
+
+html {
+  @apply scroll-smooth;
+}
+
+body {
+  @apply bg-slate-950 text-slate-100 font-sans antialiased;
+}
+
+/* Metallic texture effect */
+.metallic-texture {
+  background: linear-gradient(45deg, #2a2a2a 25%, transparent 25%, transparent 75%, #2a2a2a 75%, #2a2a2a),
+              linear-gradient(45deg, #2a2a2a 25%, transparent 25%, transparent 75%, #2a2a2a 75%, #2a2a2a);
+  background-size: 40px 40px;
+  background-position: 0 0, 20px 20px;
+}
+
+/* Brushed metal effect */
+.brushed-metal {
+  background: repeating-linear-gradient(
+    90deg,
+    #1a1a1a,
+    #1a1a1a 2px,
+    #2a2a2a 2px,
+    #2a2a2a 4px
+  );
+}
+
+/* Glow accent utilities */
+.glow-teal {
+  @apply shadow-glow-teal;
+}
+
+.glow-teal-lg {
+  @apply shadow-glow-teal-lg;
+}
+
+/* Text utilities */
+.text-gradient-teal {
+  background: linear-gradient(135deg, #1b9b8e 0%, #4ab9b8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Responsive utilities */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    @apply !animate-none transition-none;
+  }
+}
+
+/* Selection styling */
+::selection {
+  @apply bg-primary-600 text-slate-100;
+}
+
+::-moz-selection {
+  @apply bg-primary-600 text-slate-100;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  @apply w-3;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-slate-900;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-primary-600 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-primary-500;
+}

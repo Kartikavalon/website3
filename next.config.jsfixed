@@ -1,0 +1,24 @@
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: '**',
+      },
+    ],
+    unoptimized: false,
+  },
+  compress: true,
+  poweredByHeader: false,
+  reactStrictMode: true,
+  redirects: async () => [
+    {
+      source: '/products/:category',
+      destination: '/products?category=:category',
+      permanent: false,
+    },
+  ],
+}
+
+module.exports = nextConfig
