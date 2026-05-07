@@ -2,6 +2,9 @@
 import { LIGHT_RARE_EARTHS } from "./light-rare-earths";
 import { HEAVY_RARE_EARTHS } from "./heavy-rare-earths";
 import { STRATEGIC_METALS } from "./strategic-metals";
+import { PRODUCT_CATEGORIES } from "@/lib/types";
+
+export { PRODUCT_CATEGORIES };
 
 export const ALL_PRODUCTS = [
   ...LIGHT_RARE_EARTHS,

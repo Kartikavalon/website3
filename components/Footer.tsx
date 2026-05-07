@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { HiFacebook, HiLinkedin, HiTwitter } from "react-icons/hi";
+import { FaFacebook, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -97,21 +97,21 @@ export default function Footer() {
                   className="text-slate-400 hover:text-primary-600 transition-colors"
                   aria-label="Facebook"
                 >
-                  <HiFacebook size={18} />
+                  <FaFacebook size={18} />
                 </a>
                 <a
                   href="#"
                   className="text-slate-400 hover:text-primary-600 transition-colors"
                   aria-label="LinkedIn"
                 >
-                  <HiLinkedin size={18} />
+                  <FaLinkedin size={18} />
                 </a>
                 <a
                   href="#"
                   className="text-slate-400 hover:text-primary-600 transition-colors"
                   aria-label="Twitter"
                 >
-                  <HiTwitter size={18} />
+                  <FaTwitter size={18} />
                 </a>
               </div>
             </div>
