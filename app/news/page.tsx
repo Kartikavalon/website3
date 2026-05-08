@@ -107,7 +107,7 @@ export default function News() {
                   className={`px-4 py-2 rounded-lg font-semibold transition-colors ${
                     selectedCategory === category
                       ? "bg-primary-600 text-white"
-                      : "bg-slate-800 text-slate-300 hover:bg-slate-700"
+                      : "bg-slate-800 text-gray-700 hover:bg-slate-700"
                   }`}
                 >
                   {category}

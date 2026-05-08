@@ -115,7 +115,7 @@ export default function Products() {
             </div>
           ) : (
             <div className="text-center py-12">
-              <p className="font-sans text-lg text-slate-400">
+              <p className="font-sans text-lg text-gray-600">
                 No products match your search criteria.
               </p>
             </div>
@@ -129,7 +129,7 @@ export default function Products() {
           <h2 className="font-serif text-4xl font-bold mb-6">
             Need a Specific Material?
           </h2>
-          <p className="font-sans text-lg text-slate-300 mb-8">
+          <p className="font-sans text-lg text-gray-700 mb-8">
             Our technical team can help you find the perfect solution for your requirements.
           </p>
           <div className="flex flex-col md:flex-row gap-4 justify-center">

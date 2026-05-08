@@ -116,7 +116,7 @@ export default function Home() {
       </section>
 
       {/* Industries Served Section */}
-      <section className="py-20 px-4 bg-slate-950">
+      <section className="py-20 px-4 bg-white">
         <div className="container mx-auto max-w-7xl">
           <SectionHeader
             title="Industries Served"
@@ -144,81 +144,81 @@ export default function Home() {
       </section>
 
       {/* Why Choose Kaytherix */}
-      <section className="py-20 px-4 bg-slate-900">
+      <section className="py-20 px-4 bg-gray-50">
         <div className="container mx-auto max-w-7xl">
           <SectionHeader
             title="Why Choose Kaytherix Industries"
             subtitle="Trusted by global leaders for premium rare earth and strategic metals"
           />
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
-            <div className="p-6 bg-slate-800 border border-slate-700 rounded hover:border-primary-600 transition-colors">
+            <div className="p-6 bg-slate-800 border border-gray-300 rounded hover:border-primary-600 transition-colors">
               <div className="text-4xl font-serif font-bold text-primary-600 mb-4">
                 ✓
               </div>
               <h3 className="font-serif text-xl font-semibold mb-3">
                 Premium Purity Grades
               </h3>
-              <p className="font-sans text-slate-400">
+              <p className="font-sans text-gray-600">
                 99.0% to 99.99999% purity levels meeting the strictest international standards.
               </p>
             </div>
 
-            <div className="p-6 bg-slate-800 border border-slate-700 rounded hover:border-primary-600 transition-colors">
+            <div className="p-6 bg-slate-800 border border-gray-300 rounded hover:border-primary-600 transition-colors">
               <div className="text-4xl font-serif font-bold text-primary-600 mb-4">
                 ✓
               </div>
               <h3 className="font-serif text-xl font-semibold mb-3">
                 Advanced Refining
               </h3>
-              <p className="font-sans text-slate-400">
+              <p className="font-sans text-gray-600">
                 State-of-the-art furnaces, vacuum systems, and purification technology for superior quality.
               </p>
             </div>
 
-            <div className="p-6 bg-slate-800 border border-slate-700 rounded hover:border-primary-600 transition-colors">
+            <div className="p-6 bg-slate-800 border border-gray-300 rounded hover:border-primary-600 transition-colors">
               <div className="text-4xl font-serif font-bold text-primary-600 mb-4">
                 ✓
               </div>
               <h3 className="font-serif text-xl font-semibold mb-3">
                 Global Logistics
               </h3>
-              <p className="font-sans text-slate-400">
+              <p className="font-sans text-gray-600">
                 Comprehensive export capabilities with certified packaging and compliance documentation.
               </p>
             </div>
 
-            <div className="p-6 bg-slate-800 border border-slate-700 rounded hover:border-primary-600 transition-colors">
+            <div className="p-6 bg-slate-800 border border-gray-300 rounded hover:border-primary-600 transition-colors">
               <div className="text-4xl font-serif font-bold text-primary-600 mb-4">
                 ✓
               </div>
               <h3 className="font-serif text-xl font-semibold mb-3">
                 Technical Expertise
               </h3>
-              <p className="font-sans text-slate-400">
+              <p className="font-sans text-gray-600">
                 Expert team providing consultation, custom specifications, and technical support.
               </p>
             </div>
 
-            <div className="p-6 bg-slate-800 border border-slate-700 rounded hover:border-primary-600 transition-colors">
+            <div className="p-6 bg-slate-800 border border-gray-300 rounded hover:border-primary-600 transition-colors">
               <div className="text-4xl font-serif font-bold text-primary-600 mb-4">
                 ✓
               </div>
               <h3 className="font-serif text-xl font-semibold mb-3">
                 Full Certifications
               </h3>
-              <p className="font-sans text-slate-400">
+              <p className="font-sans text-gray-600">
                 ISO 9001, RoHS, REACH compliant with laboratory testing and quality assurance.
               </p>
             </div>
 
-            <div className="p-6 bg-slate-800 border border-slate-700 rounded hover:border-primary-600 transition-colors">
+            <div className="p-6 bg-slate-800 border border-gray-300 rounded hover:border-primary-600 transition-colors">
               <div className="text-4xl font-serif font-bold text-primary-600 mb-4">
                 ✓
               </div>
               <h3 className="font-serif text-xl font-semibold mb-3">
                 Reliable Supply
               </h3>
-              <p className="font-sans text-slate-400">
+              <p className="font-sans text-gray-600">
                 Consistent availability with flexible ordering and competitive bulk pricing for partners.
               </p>
             </div>

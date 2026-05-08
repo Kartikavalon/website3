@@ -23,11 +23,11 @@ export default function ProductPage({ params }: ProductPageProps) {
     PRODUCT_CATEGORIES[product.category as keyof typeof PRODUCT_CATEGORIES];
 
   return (
-    <main className="w-full bg-slate-950 text-slate-100">
+    <main className="w-full bg-white text-gray-900">
       <Navigation />
 
       {/* Breadcrumb */}
-      <div className="pt-32 px-4 bg-slate-900">
+      <div className="pt-32 px-4 bg-gray-50">
         <div className="container mx-auto max-w-6xl">
           <div className="flex items-center gap-2 text-sm font-sans text-slate-400">
             <Link href="/products" className="hover:text-primary-600 transition-colors">

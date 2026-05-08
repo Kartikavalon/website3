@@ -5,7 +5,7 @@ import Footer from "@/components/Footer";
 
 export default function Contact() {
   return (
-    <main className="w-full bg-slate-950 text-slate-100">
+    <main className="w-full bg-white text-gray-900">
       <Navigation />
 
       {/* Hero */}
@@ -14,14 +14,14 @@ export default function Contact() {
           <h1 className="font-serif text-5xl md:text-6xl font-bold mb-6">
             Get in <span className="text-primary-600">Touch</span>
           </h1>
-          <p className="font-sans text-lg text-slate-300">
+          <p className="font-sans text-lg text-gray-700">
             Connect with our technical team for inquiries, quotes, and consultation
           </p>
         </div>
       </section>
 
       {/* Contact Info */}
-      <section className="py-20 px-4 bg-slate-900">
+      <section className="py-20 px-4 bg-gray-50">
         <div className="container mx-auto max-w-5xl">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
             <div className="text-center">
@@ -31,7 +31,7 @@ export default function Contact() {
               <h3 className="font-serif text-xl font-semibold mb-2">Email</h3>
               <a
                 href="mailto:contactus@kaytherix.com"
-                className="font-sans text-slate-400 hover:text-primary-600 transition-colors"
+                className="font-sans text-gray-600 hover:text-primary-600 transition-colors"
               >
                 contactus@kaytherix.com
               </a>
@@ -43,7 +43,7 @@ export default function Contact() {
               <h3 className="font-serif text-xl font-semibold mb-2">Phone</h3>
               <a
                 href="tel:+918851294852"
-                className="font-sans text-slate-400 hover:text-primary-600 transition-colors"
+                className="font-sans text-gray-600 hover:text-primary-600 transition-colors"
               >
                 +91-8851294852
               </a>
@@ -57,7 +57,7 @@ export default function Contact() {
                 href="https://wa.me/918851294852?text=Hi%20Kaytherix%20Industries"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="font-sans text-slate-400 hover:text-primary-600 transition-colors"
+                className="font-sans text-gray-600 hover:text-primary-600 transition-colors"
               >
                 Direct Message
               </a>
@@ -67,7 +67,7 @@ export default function Contact() {
       </section>
 
       {/* Inquiry Form */}
-      <section className="py-20 px-4 bg-slate-950">
+      <section className="py-20 px-4 bg-white">
         <div className="container mx-auto max-w-2xl">
           <SectionHeader
             title="Submit Your Inquiry"
@@ -80,7 +80,7 @@ export default function Contact() {
       </section>
 
       {/* Additional Forms Grid */}
-      <section className="py-20 px-4 bg-slate-900">
+      <section className="py-20 px-4 bg-gray-50">
         <div className="container mx-auto max-w-5xl">
           <h2 className="font-serif text-4xl font-bold text-center mb-12">
             Specialized <span className="text-primary-600">Services</span>
@@ -88,14 +88,14 @@ export default function Contact() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* RFQ */}
-            <div className="p-6 bg-slate-800 border border-slate-700 rounded hover:border-primary-600 transition-colors">
+            <div className="p-6 bg-slate-800 border border-gray-300 rounded hover:border-primary-600 transition-colors">
               <div className="text-3xl font-serif font-bold text-primary-600 mb-4">
                 📋
               </div>
               <h3 className="font-serif text-xl font-semibold mb-3">
                 Request a Quote (RFQ)
               </h3>
-              <p className="font-sans text-slate-400 text-sm mb-6">
+              <p className="font-sans text-gray-600 text-sm mb-6">
                 Submit detailed specifications and volume requirements for competitive quotation.
               </p>
               <a
@@ -107,14 +107,14 @@ export default function Contact() {
             </div>
 
             {/* Technical Consultation */}
-            <div className="p-6 bg-slate-800 border border-slate-700 rounded hover:border-primary-600 transition-colors">
+            <div className="p-6 bg-slate-800 border border-gray-300 rounded hover:border-primary-600 transition-colors">
               <div className="text-3xl font-serif font-bold text-primary-600 mb-4">
                 🔬
               </div>
               <h3 className="font-serif text-xl font-semibold mb-3">
                 Technical Consultation
               </h3>
-              <p className="font-sans text-slate-400 text-sm mb-6">
+              <p className="font-sans text-gray-600 text-sm mb-6">
                 Speak directly with our experts about custom specifications and technical solutions.
               </p>
               <a
@@ -126,14 +126,14 @@ export default function Contact() {
             </div>
 
             {/* Export Inquiry */}
-            <div className="p-6 bg-slate-800 border border-slate-700 rounded hover:border-primary-600 transition-colors">
+            <div className="p-6 bg-slate-800 border border-gray-300 rounded hover:border-primary-600 transition-colors">
               <div className="text-3xl font-serif font-bold text-primary-600 mb-4">
                 🌍
               </div>
               <h3 className="font-serif text-xl font-semibold mb-3">
                 Export Inquiry
               </h3>
-              <p className="font-sans text-slate-400 text-sm mb-6">
+              <p className="font-sans text-gray-600 text-sm mb-6">
                 International logistics, compliance documentation, and bulk supply arrangements.
               </p>
               <a
@@ -148,7 +148,7 @@ export default function Contact() {
       </section>
 
       {/* FAQ Section */}
-      <section className="py-20 px-4 bg-slate-950">
+      <section className="py-20 px-4 bg-white">
         <div className="container mx-auto max-w-4xl">
           <SectionHeader
             title="Frequently Asked Questions"
@@ -188,11 +188,11 @@ export default function Contact() {
                   "Every batch undergoes rigorous laboratory testing, quality control analysis, and comprehensive certification before shipment.",
               },
             ].map((faq, index) => (
-              <div key={index} className="p-6 bg-slate-800 border border-slate-700 rounded">
-                <h3 className="font-serif text-lg font-semibold text-slate-100 mb-3">
+              <div key={index} className="p-6 bg-slate-800 border border-gray-300 rounded">
+                <h3 className="font-serif text-lg font-semibold text-gray-900 mb-3">
                   {faq.question}
                 </h3>
-                <p className="font-sans text-slate-400">{faq.answer}</p>
+                <p className="font-sans text-gray-600">{faq.answer}</p>
               </div>
             ))}
           </div>

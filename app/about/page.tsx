@@ -14,14 +14,14 @@ export default function About() {
           <h1 className="font-serif text-6xl md:text-7xl font-bold mb-6">
             About Kaytherix <span className="text-primary-600">Industries</span>
           </h1>
-          <p className="font-sans text-lg text-slate-300 mb-4">
+          <p className="font-sans text-lg text-gray-700 mb-4">
             Global leader in rare earth refinement and strategic metals supply
           </p>
         </div>
       </section>
 
       {/* Company Overview */}
-      <section className="py-20 px-4 bg-slate-900">
+      <section className="py-20 px-4 bg-gray-50">
         <div className="container mx-auto max-w-5xl">
           <SectionHeader
             title="Our Mission"
@@ -29,27 +29,27 @@ export default function About() {
           />
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
-            <div className="p-6 bg-slate-800 border border-slate-700 rounded">
+            <div className="p-6 bg-slate-800 border border-gray-300 rounded">
               <div className="text-3xl font-serif font-bold text-primary-600 mb-4">
                 Refining Excellence
               </div>
-              <p className="font-sans text-slate-400">
+              <p className="font-sans text-gray-600">
                 Advanced purification and metallurgical processes ensuring highest material purity and specifications.
               </p>
             </div>
-            <div className="p-6 bg-slate-800 border border-slate-700 rounded">
+            <div className="p-6 bg-slate-800 border border-gray-300 rounded">
               <div className="text-3xl font-serif font-bold text-primary-600 mb-4">
                 Scientific Precision
               </div>
-              <p className="font-sans text-slate-400">
+              <p className="font-sans text-gray-600">
                 Laboratory testing and quality control guaranteeing consistency and reliability across all products.
               </p>
             </div>
-            <div className="p-6 bg-slate-800 border border-slate-700 rounded">
+            <div className="p-6 bg-slate-800 border border-gray-300 rounded">
               <div className="text-3xl font-serif font-bold text-primary-600 mb-4">
                 Global Supply
               </div>
-              <p className="font-sans text-slate-400">
+              <p className="font-sans text-gray-600">
                 Worldwide export capability with certified packaging and full compliance with international standards.
               </p>
             </div>
@@ -58,7 +58,7 @@ export default function About() {
       </section>
 
       {/* Core Capabilities */}
-      <section className="py-20 px-4 bg-slate-950">
+      <section className="py-20 px-4 bg-white">
         <div className="container mx-auto max-w-5xl">
           <SectionHeader
             title="Our Capabilities"
@@ -67,10 +67,10 @@ export default function About() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mt-12">
             <div>
-              <h3 className="font-serif text-2xl font-bold text-slate-100 mb-4">
+              <h3 className="font-serif text-2xl font-bold text-gray-900 mb-4">
                 Manufacturing & Refining
               </h3>
-              <ul className="space-y-3 font-sans text-slate-300">
+              <ul className="space-y-3 font-sans text-gray-700">
                 <li className="flex items-start gap-3">
                   <span className="text-primary-600 mt-1">→</span>
                   <span>Advanced furnace systems for high-temperature processing</span>
@@ -90,10 +90,10 @@ export default function About() {
               </ul>
             </div>
             <div>
-              <h3 className="font-serif text-2xl font-bold text-slate-100 mb-4">
+              <h3 className="font-serif text-2xl font-bold text-gray-900 mb-4">
                 Quality Assurance
               </h3>
-              <ul className="space-y-3 font-sans text-slate-300">
+              <ul className="space-y-3 font-sans text-gray-700">
                 <li className="flex items-start gap-3">
                   <span className="text-primary-600 mt-1">→</span>
                   <span>Advanced laboratory testing and spectroscopy</span>
@@ -117,7 +117,7 @@ export default function About() {
       </section>
 
       {/* Services */}
-      <section className="py-20 px-4 bg-slate-900">
+      <section className="py-20 px-4 bg-gray-50">
         <div className="container mx-auto max-w-5xl">
           <SectionHeader
             title="Our Services"
@@ -128,9 +128,9 @@ export default function About() {
             {SERVICES.map((service) => (
               <div
                 key={service}
-                className="p-4 bg-slate-800 border border-slate-700 rounded hover:border-primary-600 transition-colors"
+                className="p-4 bg-slate-800 border border-gray-300 rounded hover:border-primary-600 transition-colors"
               >
-                <p className="font-sans text-slate-300">{service}</p>
+                <p className="font-sans text-gray-700">{service}</p>
               </div>
             ))}
           </div>
@@ -138,7 +138,7 @@ export default function About() {
       </section>
 
       {/* Certifications */}
-      <section className="py-20 px-4 bg-slate-950">
+      <section className="py-20 px-4 bg-white">
         <div className="container mx-auto max-w-5xl">
           <SectionHeader
             title="Certifications & Compliance"
@@ -151,7 +151,7 @@ export default function About() {
                 <h3 className="font-serif text-xl font-bold text-primary-600 mb-2">
                   {cert.name}
                 </h3>
-                <p className="font-sans text-slate-400">{cert.description}</p>
+                <p className="font-sans text-gray-600">{cert.description}</p>
               </div>
             ))}
           </div>
@@ -162,7 +162,7 @@ export default function About() {
       <section className="py-20 px-4 bg-gradient-industrial">
         <div className="container mx-auto max-w-3xl text-center">
           <h2 className="font-serif text-4xl font-bold mb-6">Ready to Partner?</h2>
-          <p className="font-sans text-lg text-slate-300 mb-8">
+          <p className="font-sans text-lg text-gray-700 mb-8">
             Connect with our team to discuss your material requirements and specifications.
           </p>
           <a
