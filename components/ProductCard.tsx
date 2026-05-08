@@ -41,7 +41,7 @@ export default function ProductCard({
       <p className="font-sans text-sm text-slate-400 mb-4">{shortDescription}</p>
 
       {purityGr && (
-        <p className="font-sans text-xs text-primary-400 mb-4">
+        <p className="font-sans text-xs text-primary-400 drop-shadow-[0_0_20px_rgba(20,184,166,0.5)] mb-4">
           Purity: {purityGr}
         </p>
       )}

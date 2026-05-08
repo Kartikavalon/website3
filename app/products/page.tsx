@@ -126,10 +126,10 @@ export default function Products() {
       {/* CTA Section */}
       <section className="py-20 px-4 bg-gradient-industrial">
         <div className="container mx-auto max-w-3xl text-center">
-          <h2 className="font-serif text-4xl font-bold mb-6">
+          <h2 className="font-serif text-6xl md:text-7xl font-bold mb-6 text-white text-white text-white text-white">
             Need a Specific Material?
           </h2>
-          <p className="font-sans text-lg text-gray-700 mb-8">
+          <p className="font-sans text-lg text-gray-300 mb-4">
             Our technical team can help you find the perfect solution for your requirements.
           </p>
           <div className="flex flex-col md:flex-row gap-4 justify-center">
