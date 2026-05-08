@@ -5,7 +5,7 @@ import { SERVICES, CERTIFICATIONS } from "@/data/index";
 
 export default function About() {
   return (
-    <main className="w-full bg-slate-950 text-slate-100">
+    <main className="w-full bg-white text-gray-900">
       <Navigation />
 
       {/* Hero */}

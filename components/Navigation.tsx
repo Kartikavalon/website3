@@ -18,7 +18,7 @@ export default function Navigation() {
   ];
 
   return (
-    <nav className="fixed top-0 w-full bg-slate-950/95 backdrop-blur-md border-b border-slate-800 z-50">
+    <nav className="fixed top-0 w-full bg-white/95 backdrop-blur-md border-b border-gray-200 z-50">
       <div className="container mx-auto max-w-7xl px-4 py-4 flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2">
@@ -34,7 +34,7 @@ export default function Navigation() {
             <li key={link.name}>
               <Link
                 href={link.href}
-                className="text-sm font-sans text-slate-300 hover:text-primary-600 transition-colors duration-200 uppercase tracking-wide"
+                className="text-sm font-sans text-gray-600 hover:text-primary-600 transition-colors duration-200 uppercase tracking-wide"
               >
                 {link.name}
               </Link>
@@ -61,13 +61,13 @@ export default function Navigation() {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="md:hidden bg-slate-900 border-b border-slate-800">
+        <div className="md:hidden bg-gray-50 border-b border-gray-200">
           <ul className="flex flex-col p-4 gap-4">
             {navLinks.map((link) => (
               <li key={link.name}>
                 <Link
                   href={link.href}
-                  className="text-slate-300 hover:text-primary-600 transition-colors font-sans text-sm"
+                  className="text-gray-700 hover:text-primary-600 transition-colors font-sans text-sm"
                   onClick={() => setIsOpen(false)}
                 >
                   {link.name}

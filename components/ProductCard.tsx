@@ -19,11 +19,11 @@ export default function ProductCard({
   return (
     <a
       href={href}
-      className="group relative p-6 bg-slate-800 border border-slate-700 rounded hover:border-primary-600 transition-all duration-300 hover:shadow-glow-teal cursor-pointer"
+      className="group relative p-6 bg-white border border-gray-300 rounded hover:border-primary-600 transition-all duration-300 hover:shadow-lg cursor-pointer"
     >
       {/* Category Badge */}
       <div className="absolute top-4 right-4">
-        <span className="inline-block px-3 py-1 bg-primary-600/20 text-primary-300 text-xs font-sans uppercase tracking-wider rounded-full">
+        <span className="inline-block px-3 py-1 bg-primary-600/10 text-primary-600 text-xs font-sans uppercase tracking-wider rounded-full">
           {category}
         </span>
       </div>

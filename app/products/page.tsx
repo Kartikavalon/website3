@@ -27,23 +27,23 @@ export default function Products() {
   }));
 
   return (
-    <main className="w-full bg-slate-950 text-slate-100">
+    <main className="w-full bg-white text-gray-900">
       <Navigation />
 
       {/* Hero */}
-      <section className="pt-32 pb-20 px-4 bg-gradient-industrial">
+      <section className="pt-32 pb-20 px-4 bg-gradient-to-b from-white to-gray-50">
         <div className="container mx-auto max-w-5xl text-center">
-          <h1 className="font-serif text-5xl md:text-6xl font-bold mb-6">
+          <h1 className="font-serif text-5xl md:text-6xl font-bold mb-6 text-gray-900">
             Our <span className="text-primary-600">Products</span>
           </h1>
-          <p className="font-sans text-lg text-slate-300">
+          <p className="font-sans text-lg text-gray-600">
             Premium rare earth elements, strategic metals, and advanced materials
           </p>
         </div>
       </section>
 
       {/* Filtering and Search */}
-      <section className="py-12 px-4 bg-slate-900 border-b border-slate-800">
+      <section className="py-12 px-4 bg-gray-50 border-b border-gray-200">
         <div className="container mx-auto max-w-6xl">
           {/* Search */}
           <div className="mb-8">
@@ -52,13 +52,13 @@ export default function Products() {
               placeholder="Search by name or symbol (e.g., Neodymium, Nd)..."
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
-              className="w-full px-4 py-3 bg-slate-800 border border-slate-700 rounded text-slate-100 font-sans placeholder-slate-500 focus:outline-none focus:border-primary-600 focus:ring-1 focus:ring-primary-600"
+              className="w-full px-4 py-3 bg-white border border-gray-300 rounded text-gray-900 font-sans placeholder-gray-500 focus:outline-none focus:border-primary-600 focus:ring-1 focus:ring-primary-600"
             />
           </div>
 
           {/* Category Filter */}
           <div>
-            <p className="font-sans text-sm text-slate-400 mb-4 uppercase tracking-wide">
+            <p className="font-sans text-sm text-gray-700 mb-4 uppercase tracking-wide">
               Filter by Category
             </p>
             <div className="flex flex-wrap gap-3">
@@ -66,8 +66,8 @@ export default function Products() {
                 onClick={() => setSelectedCategory(null)}
                 className={`px-4 py-2 rounded font-sans text-sm font-semibold transition-all ${
                   selectedCategory === null
-                    ? "bg-primary-600 text-slate-950"
-                    : "border border-slate-700 text-slate-300 hover:border-primary-600"
+                    ? "bg-primary-600 text-white"
+                    : "border border-gray-300 text-gray-700 hover:border-primary-600"  
                 }`}
               >
                 All Products
@@ -78,8 +78,8 @@ export default function Products() {
                   onClick={() => setSelectedCategory(cat.key)}
                   className={`px-4 py-2 rounded font-sans text-sm font-semibold transition-all ${
                     selectedCategory === cat.key
-                      ? "bg-primary-600 text-slate-950"
-                      : "border border-slate-700 text-slate-300 hover:border-primary-600"
+                      ? "bg-primary-600 text-white"
+                      : "border border-gray-300 text-gray-700 hover:border-primary-600"
                   }`}
                 >
                   {cat.label}
@@ -89,14 +89,14 @@ export default function Products() {
           </div>
 
           {/* Results Count */}
-          <p className="font-sans text-sm text-slate-400 mt-6">
+          <p className="font-sans text-sm text-gray-600 mt-6">
             Showing {filteredProducts.length} product{filteredProducts.length !== 1 ? "s" : ""}
           </p>
         </div>
       </section>
 
       {/* Products Grid */}
-      <section className="py-20 px-4 bg-slate-950">
+      <section className="py-20 px-4 bg-white border-b border-gray-200">
         <div className="container mx-auto max-w-6xl">
           {filteredProducts.length > 0 ? (
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

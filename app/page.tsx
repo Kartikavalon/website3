@@ -15,12 +15,12 @@ export default function Home() {
   const featuredStrategicMetals = STRATEGIC_METALS.slice(0, 3);
 
   return (
-    <main className="w-full bg-slate-950 text-slate-100">
+    <main className="w-full bg-white text-gray-900">
       <Navigation />
       <Hero />
 
       {/* Light Rare Earths Section */}
-      <section className="py-20 px-4 bg-slate-900">
+      <section className="py-20 px-4 bg-white border-b border-gray-200">
         <div className="container mx-auto max-w-7xl">
           <SectionHeader
             title="Light Rare Earth Elements"
@@ -52,7 +52,7 @@ export default function Home() {
       </section>
 
       {/* Heavy Rare Earths Section */}
-      <section className="py-20 px-4 bg-slate-950">
+      <section className="py-20 px-4 bg-gray-50">
         <div className="container mx-auto max-w-7xl">
           <SectionHeader
             title="Heavy Rare Earth Elements"
@@ -84,7 +84,7 @@ export default function Home() {
       </section>
 
       {/* Strategic Metals Section */}
-      <section className="py-20 px-4 bg-slate-900">
+      <section className="py-20 px-4 bg-white border-b border-gray-200">
         <div className="container mx-auto max-w-7xl">
           <SectionHeader
             title="Strategic & Specialty Metals"
@@ -126,9 +126,9 @@ export default function Home() {
             {INDUSTRIES_SERVED.slice(0, 8).map((industry) => (
               <div
                 key={industry.id}
-                className="p-4 bg-slate-800 border border-slate-700 rounded hover:border-primary-600 transition-colors text-center"
+                className="p-4 bg-white border border-gray-300 rounded hover:border-primary-600 transition-colors text-center"
               >
-                <p className="font-serif font-semibold text-slate-100">{industry.name}</p>
+                <p className="font-serif font-semibold text-gray-900">{industry.name}</p>
               </div>
             ))}
           </div>
@@ -232,13 +232,13 @@ export default function Home() {
           <h2 className="font-serif text-4xl md:text-5xl font-bold mb-6">
             Ready to Order Premium Materials?
           </h2>
-          <p className="font-sans text-lg text-slate-300 mb-8">
+          <p className="font-sans text-lg text-gray-700 mb-8">
             Connect with our team to discuss your material requirements, specifications, and volume needs.
           </p>
           <div className="flex flex-col md:flex-row gap-4 justify-center">
             <Link
               href="/contact"
-              className="px-8 py-4 bg-primary-600 text-slate-950 font-sans font-semibold rounded hover:bg-primary-500 transition-all duration-300 hover:shadow-glow-teal"
+              className="px-8 py-4 bg-primary-600 text-white font-sans font-semibold rounded hover:bg-primary-700 transition-all duration-300 hover:shadow-lg"
             >
               Request Technical Datasheet
             </Link>

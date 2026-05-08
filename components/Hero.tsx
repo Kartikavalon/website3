@@ -25,9 +25,9 @@ export default function Hero() {
 
   return (
     <section className="relative w-full h-screen min-h-screen flex items-center justify-center overflow-hidden pt-16">
-      {/* Background gradient with metallic effect */}
-      <div className="absolute inset-0 bg-gradient-industrial z-0">
-        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-slate-950/40 to-slate-950 z-10" />
+      {/* Background gradient */}
+      <div className="absolute inset-0 bg-gradient-to-b from-white to-gray-50 z-0">
+        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-primary-50/30 to-white z-10" />
         
         {/* Animated background elements */}
         <motion.div
@@ -62,7 +62,7 @@ export default function Hero() {
           className="mb-6 inline-block"
         >
           <div className="px-4 py-2 border border-primary-600/50 rounded-full bg-primary-600/10 backdrop-blur-sm">
-            <p className="text-xs font-sans uppercase tracking-widest text-primary-300">
+            <p className="text-xs font-sans uppercase tracking-widest text-primary-600">
               ✨ Premium Rare Earth Solutions
             </p>
           </div>
@@ -71,7 +71,7 @@ export default function Hero() {
         {/* Main Heading */}
         <motion.h1
           variants={itemVariants}
-          className="text-5xl md:text-7xl lg:text-8xl font-serif font-bold mb-6 text-slate-100"
+          className="text-5xl md:text-7xl lg:text-8xl font-serif font-bold mb-6 text-gray-900"
         >
           Kaytherix <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-600 to-primary-400">Industries</span>
         </motion.h1>
@@ -79,7 +79,7 @@ export default function Hero() {
         {/* Subheading */}
         <motion.p
           variants={itemVariants}
-          className="text-lg md:text-2xl text-slate-300 mb-8 font-sans font-light max-w-3xl mx-auto"
+          className="text-lg md:text-2xl text-gray-700 mb-8 font-sans font-light max-w-3xl mx-auto"
         >
           Global refiner and manufacturer of rare earth elements, strategic metals, and advanced industrial materials
         </motion.p>
@@ -87,7 +87,7 @@ export default function Hero() {
         {/* Description */}
         <motion.p
           variants={itemVariants}
-          className="text-slate-400 text-base md:text-lg font-sans mb-12 max-w-2xl mx-auto"
+          className="text-gray-600 text-base md:text-lg font-sans mb-12 max-w-2xl mx-auto"
         >
           High-purity processing | Scientific precision | Industrial expertise | Global export capability
         </motion.p>
