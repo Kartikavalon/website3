@@ -15,22 +15,62 @@ const sans = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Kaytherix Industries | Rare Earth Elements & Strategic Metals",
+  title: "Kaytherix Industries | Rare Earth Elements & Strategic Metals Supplier",
   description:
-    "Premium supplier of rare earth elements, strategic metals, and advanced industrial materials. Global refining, high-purity processing, and export-grade metallurgy solutions.",
+    "Global leader in rare earth element refining and strategic metals supply. Premium quality materials, high-purity processing, and export-grade production for advanced industries.",
   keywords: [
     "rare earth elements",
-    "strategic metals",
     "rare earth supplier",
-    "metallurgy",
+    "strategic metals",
+    "neodymium supplier",
+    "tantalum supplier",
+    "gallium supplier",
+    "rare earth refinery",
+    "metal refining",
     "sputtering targets",
     "high purity metals",
-    "rare earth refinery",
+    "advanced materials",
+    "industrial chemicals",
+    "precision substrates",
+    "aerospace materials",
+    "semiconductor materials",
+    "EV materials",
   ],
+  authors: [{ name: "Kaytherix Industries" }],
+  creator: "Kaytherix Industries",
+  publisher: "Kaytherix Industries",
+  robots: {
+    index: true,
+    follow: true,
+    "max-image-preview": "large",
+    "max-snippet": -1,
+    "max-video-preview": -1,
+    googleBot: "index, follow",
+  },
   openGraph: {
-    title: "Kaytherix Industries | Rare Earth Elements & Strategic Metals",
-    description: "Global supplier of rare earth elements, strategic metals, and advanced materials.",
     type: "website",
+    locale: "en_US",
+    url: "https://kaytherix.com",
+    siteName: "Kaytherix Industries",
+    title: "Kaytherix Industries | Rare Earth Elements & Strategic Metals",
+    description:
+      "Global leader in rare earth element refining and strategic metals supply. Premium quality materials for aerospace, semiconductors, EV, and advanced industrial applications.",
+    images: [
+      {
+        url: "https://kaytherix.com/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Kaytherix Industries",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Kaytherix Industries",
+    description: "Global supplier of rare earth elements and strategic metals",
+  },
+  alternates: {
+    canonical: "https://kaytherix.com",
   },
 };
 
