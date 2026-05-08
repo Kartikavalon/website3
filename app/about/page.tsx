@@ -11,7 +11,7 @@ export default function About() {
       {/* Hero */}
       <section className="pt-32 pb-20 px-4 bg-gradient-industrial">
         <div className="container mx-auto max-w-5xl text-center">
-          <h1 className="font-serif text-6xl md:text-7xl font-bold mb-6 text-white text-white text-white">
+          <h1 className="font-serif text-6xl md:text-7xl font-bold mb-6 text-white">
             About Kaytherix <span className="text-primary-400 drop-shadow-[0_0_20px_rgba(20,184,166,0.5)]">Industries</span>
           </h1>
           <p className="font-sans text-lg text-gray-700 mb-4">
@@ -161,7 +161,7 @@ export default function About() {
       {/* CTA */}
       <section className="py-20 px-4 bg-gradient-industrial">
         <div className="container mx-auto max-w-3xl text-center">
-          <h2 className="font-serif text-6xl md:text-7xl font-bold mb-6 text-white">Ready to Partner?</h2>
+          <h2 className="text-primary-400 drop-shadow-[0_0_20px_rgba(20,184,166,0.5)]">Ready to Partner?</h2>
           <p className="font-sans text-lg text-gray-700 mb-8">
             Connect with our team to discuss your material requirements and specifications.
           </p>

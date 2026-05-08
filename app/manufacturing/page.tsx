@@ -10,7 +10,7 @@ export default function Manufacturing() {
       {/* Hero */}
       <section className="pt-32 pb-20 px-4 bg-gradient-industrial">
         <div className="container mx-auto max-w-5xl text-center">
-          <h1 className="font-serif text-5xl md:text-6xl font-bold mb-6">
+          <h1 className="font-serif text-6xl md:text-7xl font-bold mb-6 text-white">
             Manufacturing & <span className="text-primary-600">Refining</span>
           </h1>
           <p className="font-sans text-lg text-gray-700">
@@ -255,7 +255,7 @@ export default function Manufacturing() {
       {/* CTA */}
       <section className="py-20 px-4 bg-gradient-industrial">
         <div className="container mx-auto max-w-3xl text-center">
-          <h2 className="font-serif text-4xl font-bold mb-6">
+          <h2 className="text-primary-400 drop-shadow-[0_0_20px_rgba(20,184,166,0.5)]">
             Need Custom Processing?
           </h2>
           <p className="font-sans text-lg text-gray-700 mb-8">

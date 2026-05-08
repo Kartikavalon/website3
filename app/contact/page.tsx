@@ -11,7 +11,7 @@ export default function Contact() {
       {/* Hero */}
       <section className="pt-32 pb-20 px-4 bg-gradient-industrial">
         <div className="container mx-auto max-w-5xl text-center">
-          <h1 className="font-serif text-5xl md:text-6xl font-bold mb-6">
+          <h1 className="font-serif text-6xl md:text-7xl font-bold mb-6 text-white">
             Get in <span className="text-primary-600">Touch</span>
           </h1>
           <p className="font-sans text-lg text-gray-700">
