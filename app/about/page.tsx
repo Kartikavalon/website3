@@ -161,7 +161,7 @@ export default function About() {
       {/* CTA */}
       <section className="py-20 px-4 bg-gradient-industrial">
         <div className="container mx-auto max-w-3xl text-center">
-          <h2 className="text-primary-400 drop-shadow-[0_0_20px_rgba(20,184,166,0.5)]">Ready to Partner?</h2>
+          <h2 className="font-serif text-6xl md:text-7xl font-bold mb-6 text-primary-400 drop-shadow-[0_0_20px_rgba(20,184,166,0.5)]">Ready to Partner?</h2>
           <p className="font-sans text-lg text-gray-700 mb-8">
             Connect with our team to discuss your material requirements and specifications.
           </p>
