@@ -29,7 +29,7 @@ export default function About() {
           />
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
-            <div className="p-6 bg-slate-800 border border-gray-300 rounded">
+            <div className="p-6 bg-white border border-gray-300 rounded">
               <div className="text-3xl font-serif font-bold text-primary-600 mb-4">
                 Refining Excellence
               </div>
@@ -37,7 +37,7 @@ export default function About() {
                 Advanced purification and metallurgical processes ensuring highest material purity and specifications.
               </p>
             </div>
-            <div className="p-6 bg-slate-800 border border-gray-300 rounded">
+            <div className="p-6 bg-white border border-gray-300 rounded">
               <div className="text-3xl font-serif font-bold text-primary-600 mb-4">
                 Scientific Precision
               </div>
@@ -45,7 +45,7 @@ export default function About() {
                 Laboratory testing and quality control guaranteeing consistency and reliability across all products.
               </p>
             </div>
-            <div className="p-6 bg-slate-800 border border-gray-300 rounded">
+            <div className="p-6 bg-white border border-gray-300 rounded">
               <div className="text-3xl font-serif font-bold text-primary-600 mb-4">
                 Global Supply
               </div>
@@ -128,7 +128,7 @@ export default function About() {
             {SERVICES.map((service) => (
               <div
                 key={service}
-                className="p-4 bg-slate-800 border border-gray-300 rounded hover:border-primary-600 transition-colors"
+                className="p-4 bg-white border border-gray-300 rounded hover:border-primary-600 transition-colors"
               >
                 <p className="font-sans text-gray-700">{service}</p>
               </div>
@@ -147,7 +147,7 @@ export default function About() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-12">
             {CERTIFICATIONS.map((cert) => (
-              <div key={cert.id} className="p-6 bg-slate-800 border border-primary-600/30 rounded">
+              <div key={cert.id} className="p-6 bg-white border border-primary-600/30 rounded">
                 <h3 className="font-serif text-xl font-bold text-primary-600 mb-2">
                   {cert.name}
                 </h3>
@@ -178,3 +178,4 @@ export default function About() {
     </main>
   );
 }
+

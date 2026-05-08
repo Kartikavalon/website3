@@ -88,7 +88,7 @@ export default function Contact() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* RFQ */}
-            <div className="p-6 bg-slate-800 border border-gray-300 rounded hover:border-primary-600 transition-colors">
+            <div className="p-6 bg-white border border-gray-300 rounded hover:border-primary-600 transition-colors">
               <div className="text-3xl font-serif font-bold text-primary-600 mb-4">
                 📋
               </div>
@@ -107,7 +107,7 @@ export default function Contact() {
             </div>
 
             {/* Technical Consultation */}
-            <div className="p-6 bg-slate-800 border border-gray-300 rounded hover:border-primary-600 transition-colors">
+            <div className="p-6 bg-white border border-gray-300 rounded hover:border-primary-600 transition-colors">
               <div className="text-3xl font-serif font-bold text-primary-600 mb-4">
                 🔬
               </div>
@@ -126,7 +126,7 @@ export default function Contact() {
             </div>
 
             {/* Export Inquiry */}
-            <div className="p-6 bg-slate-800 border border-gray-300 rounded hover:border-primary-600 transition-colors">
+            <div className="p-6 bg-white border border-gray-300 rounded hover:border-primary-600 transition-colors">
               <div className="text-3xl font-serif font-bold text-primary-600 mb-4">
                 🌍
               </div>
@@ -188,7 +188,7 @@ export default function Contact() {
                   "Every batch undergoes rigorous laboratory testing, quality control analysis, and comprehensive certification before shipment.",
               },
             ].map((faq, index) => (
-              <div key={index} className="p-6 bg-slate-800 border border-gray-300 rounded">
+              <div key={index} className="p-6 bg-white border border-gray-300 rounded">
                 <h3 className="font-serif text-lg font-semibold text-gray-900 mb-3">
                   {faq.question}
                 </h3>
@@ -203,3 +203,4 @@ export default function Contact() {
     </main>
   );
 }
+

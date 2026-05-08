@@ -151,7 +151,7 @@ export default function Home() {
             subtitle="Trusted by global leaders for premium rare earth and strategic metals"
           />
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
-            <div className="p-6 bg-slate-800 border border-gray-300 rounded hover:border-primary-600 transition-colors">
+            <div className="p-6 bg-white border border-gray-300 rounded hover:border-primary-600 transition-colors">
               <div className="text-4xl font-serif font-bold text-primary-600 mb-4">
                 ✓
               </div>
@@ -163,7 +163,7 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="p-6 bg-slate-800 border border-gray-300 rounded hover:border-primary-600 transition-colors">
+            <div className="p-6 bg-white border border-gray-300 rounded hover:border-primary-600 transition-colors">
               <div className="text-4xl font-serif font-bold text-primary-600 mb-4">
                 ✓
               </div>
@@ -175,7 +175,7 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="p-6 bg-slate-800 border border-gray-300 rounded hover:border-primary-600 transition-colors">
+            <div className="p-6 bg-white border border-gray-300 rounded hover:border-primary-600 transition-colors">
               <div className="text-4xl font-serif font-bold text-primary-600 mb-4">
                 ✓
               </div>
@@ -187,7 +187,7 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="p-6 bg-slate-800 border border-gray-300 rounded hover:border-primary-600 transition-colors">
+            <div className="p-6 bg-white border border-gray-300 rounded hover:border-primary-600 transition-colors">
               <div className="text-4xl font-serif font-bold text-primary-600 mb-4">
                 ✓
               </div>
@@ -199,7 +199,7 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="p-6 bg-slate-800 border border-gray-300 rounded hover:border-primary-600 transition-colors">
+            <div className="p-6 bg-white border border-gray-300 rounded hover:border-primary-600 transition-colors">
               <div className="text-4xl font-serif font-bold text-primary-600 mb-4">
                 ✓
               </div>
@@ -211,7 +211,7 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="p-6 bg-slate-800 border border-gray-300 rounded hover:border-primary-600 transition-colors">
+            <div className="p-6 bg-white border border-gray-300 rounded hover:border-primary-600 transition-colors">
               <div className="text-4xl font-serif font-bold text-primary-600 mb-4">
                 ✓
               </div>
@@ -264,3 +264,4 @@ export default function Home() {
     </main>
   );
 }
+

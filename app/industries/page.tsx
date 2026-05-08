@@ -27,7 +27,7 @@ export default function Industries() {
             {INDUSTRIES_SERVED.map((industry) => (
               <div
                 key={industry.id}
-                className="group p-8 bg-slate-800 border border-gray-300 rounded hover:border-primary-600 transition-all duration-300 hover:shadow-glow-teal"
+                className="group p-8 bg-white border border-gray-300 rounded hover:border-primary-600 transition-all duration-300 hover:shadow-glow-teal"
               >
                 {/* Industry Title */}
                 <h3 className="font-serif text-2xl font-bold text-gray-900 mb-3 group-hover:text-primary-600 transition-colors">
@@ -68,7 +68,7 @@ export default function Industries() {
           />
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
-            <div className="p-6 bg-slate-800 border border-gray-300 rounded">
+            <div className="p-6 bg-white border border-gray-300 rounded">
               <div className="text-3xl font-serif font-bold text-primary-600 mb-4">
                 ⚡
               </div>
@@ -80,7 +80,7 @@ export default function Industries() {
               </p>
             </div>
 
-            <div className="p-6 bg-slate-800 border border-gray-300 rounded">
+            <div className="p-6 bg-white border border-gray-300 rounded">
               <div className="text-3xl font-serif font-bold text-primary-600 mb-4">
                 🛰️
               </div>
@@ -92,7 +92,7 @@ export default function Industries() {
               </p>
             </div>
 
-            <div className="p-6 bg-slate-800 border border-gray-300 rounded">
+            <div className="p-6 bg-white border border-gray-300 rounded">
               <div className="text-3xl font-serif font-bold text-primary-600 mb-4">
                 💻
               </div>
@@ -130,7 +130,7 @@ export default function Industries() {
                   <li>✓ Guaranteed material consistency</li>
                 </ul>
               </div>
-              <div className="p-8 bg-slate-800 border border-gray-300 rounded">
+              <div className="p-8 bg-white border border-gray-300 rounded">
                 <p className="font-serif text-lg font-semibold text-primary-600">
                   Key Materials
                 </p>
@@ -141,7 +141,7 @@ export default function Industries() {
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-              <div className="p-8 bg-slate-800 border border-gray-300 rounded order-last md:order-first">
+              <div className="p-8 bg-white border border-gray-300 rounded order-last md:order-first">
                 <p className="font-serif text-lg font-semibold text-primary-600">
                   Key Materials
                 </p>
@@ -178,7 +178,7 @@ export default function Industries() {
                   <li>✓ Aerospace-certified purity</li>
                 </ul>
               </div>
-              <div className="p-8 bg-slate-800 border border-gray-300 rounded">
+              <div className="p-8 bg-white border border-gray-300 rounded">
                 <p className="font-serif text-lg font-semibold text-primary-600">
                   Key Materials
                 </p>
@@ -213,3 +213,4 @@ export default function Industries() {
     </main>
   );
 }
+

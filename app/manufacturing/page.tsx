@@ -33,7 +33,7 @@ export default function Manufacturing() {
                 Refinement Systems
               </h3>
               <div className="space-y-4">
-                <div className="p-4 bg-slate-800 border-l-4 border-primary-600 rounded">
+                <div className="p-4 bg-white border-l-4 border-primary-600 rounded">
                   <h4 className="font-sans font-semibold text-gray-900 mb-2">
                     Furnace Systems
                   </h4>
@@ -41,7 +41,7 @@ export default function Manufacturing() {
                     High-temperature induction and arc furnaces for melting and purification of rare earth metals.
                   </p>
                 </div>
-                <div className="p-4 bg-slate-800 border-l-4 border-primary-600 rounded">
+                <div className="p-4 bg-white border-l-4 border-primary-600 rounded">
                   <h4 className="font-sans font-semibold text-gray-900 mb-2">
                     Vacuum Melting
                   </h4>
@@ -49,7 +49,7 @@ export default function Manufacturing() {
                     Vacuum and inert-atmosphere melting for ultra-high purity ingot production and segregation control.
                   </p>
                 </div>
-                <div className="p-4 bg-slate-800 border-l-4 border-primary-600 rounded">
+                <div className="p-4 bg-white border-l-4 border-primary-600 rounded">
                   <h4 className="font-sans font-semibold text-gray-900 mb-2">
                     Powder Processing
                   </h4>
@@ -57,7 +57,7 @@ export default function Manufacturing() {
                     Atomization, grinding, and classification systems for precision powder production.
                   </p>
                 </div>
-                <div className="p-4 bg-slate-800 border-l-4 border-primary-600 rounded">
+                <div className="p-4 bg-white border-l-4 border-primary-600 rounded">
                   <h4 className="font-sans font-semibold text-gray-900 mb-2">
                     Purification Systems
                   </h4>
@@ -73,7 +73,7 @@ export default function Manufacturing() {
                 Quality & Testing
               </h3>
               <div className="space-y-4">
-                <div className="p-4 bg-slate-800 border-l-4 border-primary-600 rounded">
+                <div className="p-4 bg-white border-l-4 border-primary-600 rounded">
                   <h4 className="font-sans font-semibold text-gray-900 mb-2">
                     Laboratory Testing
                   </h4>
@@ -81,7 +81,7 @@ export default function Manufacturing() {
                     Comprehensive analytical laboratory with advanced testing equipment and instrumentation.
                   </p>
                 </div>
-                <div className="p-4 bg-slate-800 border-l-4 border-primary-600 rounded">
+                <div className="p-4 bg-white border-l-4 border-primary-600 rounded">
                   <h4 className="font-sans font-semibold text-gray-900 mb-2">
                     Spectroscopy Equipment
                   </h4>
@@ -89,7 +89,7 @@ export default function Manufacturing() {
                     ICP-OES, XRF, and mass spectrometry for precise composition and purity analysis.
                   </p>
                 </div>
-                <div className="p-4 bg-slate-800 border-l-4 border-primary-600 rounded">
+                <div className="p-4 bg-white border-l-4 border-primary-600 rounded">
                   <h4 className="font-sans font-semibold text-gray-900 mb-2">
                     Quality Control
                   </h4>
@@ -97,7 +97,7 @@ export default function Manufacturing() {
                     Batch testing, material documentation, and comprehensive quality assurance protocols.
                   </p>
                 </div>
-                <div className="p-4 bg-slate-800 border-l-4 border-primary-600 rounded">
+                <div className="p-4 bg-white border-l-4 border-primary-600 rounded">
                   <h4 className="font-sans font-semibold text-gray-900 mb-2">
                     Packaging & Logistics
                   </h4>
@@ -213,7 +213,7 @@ export default function Manufacturing() {
           />
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">
-            <div className="p-6 bg-slate-800 border border-gray-300 rounded">
+            <div className="p-6 bg-white border border-gray-300 rounded">
               <div className="text-3xl font-serif font-bold text-primary-600 mb-4">
                 🔬
               </div>
@@ -225,7 +225,7 @@ export default function Manufacturing() {
               </p>
             </div>
 
-            <div className="p-6 bg-slate-800 border border-gray-300 rounded">
+            <div className="p-6 bg-white border border-gray-300 rounded">
               <div className="text-3xl font-serif font-bold text-primary-600 mb-4">
                 📊
               </div>
@@ -237,7 +237,7 @@ export default function Manufacturing() {
               </p>
             </div>
 
-            <div className="p-6 bg-slate-800 border border-gray-300 rounded">
+            <div className="p-6 bg-white border border-gray-300 rounded">
               <div className="text-3xl font-serif font-bold text-primary-600 mb-4">
                 ✓
               </div>
@@ -274,3 +274,4 @@ export default function Manufacturing() {
     </main>
   );
 }
+
