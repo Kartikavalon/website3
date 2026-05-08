@@ -11,10 +11,10 @@ export default function About() {
       {/* Hero */}
       <section className="pt-32 pb-20 px-4 bg-gradient-industrial">
         <div className="container mx-auto max-w-5xl text-center">
-          <h1 className="font-serif text-6xl md:text-7xl font-bold mb-6">
-            About Kaytherix <span className="text-primary-600">Industries</span>
+          <h1 className="font-serif text-6xl md:text-7xl font-bold mb-6 text-white">
+            About Kaytherix <span className="text-primary-400 drop-shadow-[0_0_20px_rgba(20,184,166,0.5)]">Industries</span>
           </h1>
-          <p className="font-sans text-lg text-gray-700 mb-4">
+          <p className="font-sans text-lg text-gray-300 mb-4">
             Global leader in rare earth refinement and strategic metals supply
           </p>
         </div>
