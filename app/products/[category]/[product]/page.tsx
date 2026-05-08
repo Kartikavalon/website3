@@ -107,16 +107,16 @@ export default function ProductPage({ params }: ProductPageProps) {
       </section>
 
       {/* Available Forms */}
-      <section className="py-20 px-4 bg-slate-900">
+      <section className="py-20 px-4 bg-gray-50">
         <div className="container mx-auto max-w-6xl">
           <h2 className="font-serif text-3xl font-bold mb-12">Available Forms</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
             {product.availableForms.map((form) => (
               <div
                 key={form}
-                className="p-4 bg-slate-800 border border-slate-700 rounded text-center hover:border-primary-600 transition-colors"
+                className="p-4 bg-white border border-gray-300 rounded text-center hover:border-primary-600 transition-colors"
               >
-                <p className="font-sans text-sm font-semibold text-slate-200">{form}</p>
+                <p className="font-sans text-sm font-semibold text-gray-900">{form}</p>
               </div>
             ))}
           </div>
@@ -124,14 +124,14 @@ export default function ProductPage({ params }: ProductPageProps) {
       </section>
 
       {/* Purity Grades */}
-      <section className="py-20 px-4 bg-slate-950">
+      <section className="py-20 px-4 bg-white">
         <div className="container mx-auto max-w-6xl">
           <h2 className="font-serif text-3xl font-bold mb-12">Purity Grades</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             {product.purityGrades.map((grade) => (
               <div
                 key={grade}
-                className="p-6 bg-slate-800 border border-primary-600/30 rounded text-center hover:border-primary-600 transition-colors"
+                className="p-6 bg-gray-50 border border-primary-600/30 rounded text-center hover:border-primary-600 transition-colors"
               >
                 <p className="font-serif text-2xl font-bold text-primary-600">{grade}</p>
               </div>
@@ -141,7 +141,7 @@ export default function ProductPage({ params }: ProductPageProps) {
       </section>
 
       {/* Applications */}
-      <section className="py-20 px-4 bg-slate-900">
+      <section className="py-20 px-4 bg-gray-50">
         <div className="container mx-auto max-w-6xl">
           <h2 className="font-serif text-3xl font-bold mb-12">Applications</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -261,23 +261,23 @@ export default function ProductPage({ params }: ProductPageProps) {
       </section>
 
       {/* Specifications */}
-      <section className="py-20 px-4 bg-slate-950">
+      <section className="py-20 px-4 bg-white">
         <div className="container mx-auto max-w-6xl">
           <h2 className="font-serif text-3xl font-bold mb-12">Technical Specifications</h2>
-          <div className="bg-slate-800 border border-slate-700 rounded overflow-hidden">
+          <div className="bg-white border border-gray-300 rounded overflow-hidden">
             <table className="w-full">
               <tbody>
                 {product.specifications.map((spec, index) => (
                   <tr
                     key={spec.label}
-                    className={`border-b border-slate-700 ${
-                      index % 2 === 0 ? "bg-slate-800" : "bg-slate-750"
+                    className={`border-b border-gray-300 ${
+                      index % 2 === 0 ? "bg-white" : "bg-gray-50"
                     }`}
                   >
-                    <td className="px-6 py-4 font-sans font-semibold text-slate-300 w-1/3">
+                    <td className="px-6 py-4 font-sans font-semibold text-gray-900 w-1/3">
                       {spec.label}
                     </td>
-                    <td className="px-6 py-4 font-sans text-slate-400">{spec.value}</td>
+                    <td className="px-6 py-4 font-sans text-gray-700">{spec.value}</td>
                   </tr>
                 ))}
               </tbody>
@@ -286,18 +286,18 @@ export default function ProductPage({ params }: ProductPageProps) {
 
           {/* Storage & Packaging */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
-            <div className="p-6 bg-slate-800 border border-slate-700 rounded">
+            <div className="p-6 bg-gray-50 border border-gray-300 rounded">
               <h3 className="font-serif text-lg font-semibold text-primary-600 mb-3">
                 Storage Requirements
               </h3>
-              <p className="font-sans text-slate-400">{product.storageRequirements}</p>
+              <p className="font-sans text-gray-700">{product.storageRequirements}</p>
             </div>
 
-            <div className="p-6 bg-slate-800 border border-slate-700 rounded">
+            <div className="p-6 bg-gray-50 border border-gray-300 rounded">
               <h3 className="font-serif text-lg font-semibold text-primary-600 mb-3">
                 Packaging Options
               </h3>
-              <ul className="space-y-2 font-sans text-slate-400">
+              <ul className="space-y-2 font-sans text-gray-700">
                 {product.packasingOptions.map((option) => (
                   <li key={option} className="flex items-center gap-2">
                     <span className="text-primary-600">•</span>
