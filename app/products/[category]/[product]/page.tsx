@@ -29,7 +29,7 @@ export default function ProductPage({ params }: ProductPageProps) {
       {/* Breadcrumb */}
       <div className="pt-32 px-4 bg-gray-50">
         <div className="container mx-auto max-w-6xl">
-          <div className="flex items-center gap-2 text-sm font-sans text-slate-400">
+          <div className="flex items-center gap-2 text-sm font-sans text-gray-600">
             <Link href="/products" className="hover:text-primary-600 transition-colors">
               Products
             </Link>
@@ -71,31 +71,31 @@ export default function ProductPage({ params }: ProductPageProps) {
                 {product.name}
               </h1>
 
-              <p className="font-sans text-lg text-slate-300 mb-6">
+              <p className="font-sans text-lg text-gray-700 mb-6">
                 {product.fullDescription}
               </p>
 
               <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                 <div>
-                  <p className="font-sans text-xs text-slate-400 uppercase">Atomic #</p>
+                  <p className="font-sans text-xs text-gray-600 uppercase">Atomic #</p>
                   <p className="font-serif text-2xl font-bold text-primary-600">
                     {product.atomicNumber}
                   </p>
                 </div>
                 <div>
-                  <p className="font-sans text-xs text-slate-400 uppercase">Atomic Wt</p>
+                  <p className="font-sans text-xs text-gray-600 uppercase">Atomic Wt</p>
                   <p className="font-serif text-2xl font-bold text-primary-600">
                     {product.atomicWeight}
                   </p>
                 </div>
                 <div>
-                  <p className="font-sans text-xs text-slate-400 uppercase">CAS #</p>
+                  <p className="font-sans text-xs text-gray-600 uppercase">CAS #</p>
                   <p className="font-serif text-lg font-bold text-primary-600">
                     {product.casNumber}
                   </p>
                 </div>
                 <div>
-                  <p className="font-sans text-xs text-slate-400 uppercase">Purity</p>
+                  <p className="font-sans text-xs text-gray-600 uppercase">Purity</p>
                   <p className="font-serif text-2xl font-bold text-primary-600">
                     99+%
                   </p>
@@ -150,7 +150,7 @@ export default function ProductPage({ params }: ProductPageProps) {
                 <h3 className="font-serif text-xl font-semibold text-primary-600 mb-4">
                   Electric Vehicles & Batteries
                 </h3>
-                <ul className="space-y-2 font-sans text-slate-400">
+                <ul className="space-y-2 font-sans text-gray-700">
                   {product.applications.ev.map((app) => (
                     <li key={app} className="flex items-start gap-3">
                       <span className="text-primary-600 mt-1">✓</span>
@@ -166,7 +166,7 @@ export default function ProductPage({ params }: ProductPageProps) {
                 <h3 className="font-serif text-xl font-semibold text-primary-600 mb-4">
                   Semiconductor
                 </h3>
-                <ul className="space-y-2 font-sans text-slate-400">
+                <ul className="space-y-2 font-sans text-gray-700">
                   {product.applications.semiconductor.map((app) => (
                     <li key={app} className="flex items-start gap-3">
                       <span className="text-primary-600 mt-1">✓</span>
@@ -182,7 +182,7 @@ export default function ProductPage({ params }: ProductPageProps) {
                 <h3 className="font-serif text-xl font-semibold text-primary-600 mb-4">
                   Aerospace
                 </h3>
-                <ul className="space-y-2 font-sans text-slate-400">
+                <ul className="space-y-2 font-sans text-gray-700">
                   {product.applications.aerospace.map((app) => (
                     <li key={app} className="flex items-start gap-3">
                       <span className="text-primary-600 mt-1">✓</span>
@@ -198,7 +198,7 @@ export default function ProductPage({ params }: ProductPageProps) {
                 <h3 className="font-serif text-xl font-semibold text-primary-600 mb-4">
                   Permanent Magnets
                 </h3>
-                <ul className="space-y-2 font-sans text-slate-400">
+                <ul className="space-y-2 font-sans text-gray-700">
                   {product.applications.magnets.map((app) => (
                     <li key={app} className="flex items-start gap-3">
                       <span className="text-primary-600 mt-1">✓</span>
@@ -214,7 +214,7 @@ export default function ProductPage({ params }: ProductPageProps) {
                 <h3 className="font-serif text-xl font-semibold text-primary-600 mb-4">
                   Optical & Display
                 </h3>
-                <ul className="space-y-2 font-sans text-slate-400">
+                <ul className="space-y-2 font-sans text-gray-700">
                   {product.applications.optical.map((app) => (
                     <li key={app} className="flex items-start gap-3">
                       <span className="text-primary-600 mt-1">✓</span>
@@ -230,7 +230,7 @@ export default function ProductPage({ params }: ProductPageProps) {
                 <h3 className="font-serif text-xl font-semibold text-primary-600 mb-4">
                   Catalysts
                 </h3>
-                <ul className="space-y-2 font-sans text-slate-400">
+                <ul className="space-y-2 font-sans text-gray-700">
                   {product.applications.catalysts.map((app) => (
                     <li key={app} className="flex items-start gap-3">
                       <span className="text-primary-600 mt-1">✓</span>
@@ -246,7 +246,7 @@ export default function ProductPage({ params }: ProductPageProps) {
                 <h3 className="font-serif text-xl font-semibold text-primary-600 mb-4">
                   Metallurgy
                 </h3>
-                <ul className="space-y-2 font-sans text-slate-400">
+                <ul className="space-y-2 font-sans text-gray-700">
                   {product.applications.metallurgy.map((app) => (
                     <li key={app} className="flex items-start gap-3">
                       <span className="text-primary-600 mt-1">✓</span>
