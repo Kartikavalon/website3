@@ -39,6 +39,9 @@ export const metadata: Metadata = {
   authors: [{ name: "Kaytherix Industries" }],
   creator: "Kaytherix Industries",
   publisher: "Kaytherix Industries",
+  icons: {
+    icon: "/favicon.svg",
+  },
   robots: {
     index: true,
     follow: true,

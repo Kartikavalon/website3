@@ -48,7 +48,7 @@ const config: Config = {
         sans: ['var(--font-sans)', 'system-ui', 'sans-serif'],
       },
       backgroundImage: {
-        'gradient-industrial': 'linear-gradient(135deg, #0f0f0f 0%, #1a1a1a 100%)',
+        'gradient-industrial': 'linear-gradient(135deg, #f3f4f6 0%, #ffffff 100%)',
         'gradient-teal-dark': 'linear-gradient(135deg, #1b9b8e 0%, #0f0f0f 100%)',
         'gradient-metallic': 'linear-gradient(135deg, #d4af37 0%, #c0c0c0 50%, #b87333 100%)',
       },

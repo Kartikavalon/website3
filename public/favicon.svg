@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" width="180" height="180">
+  <!-- Background circle -->
+  <circle cx="90" cy="90" r="85" fill="#1b9b8e"/>
+  
+  <!-- Letter K -->
+  <text x="90" y="120" font-family="Georgia, serif" font-size="100" font-weight="bold" fill="white" text-anchor="middle">K</text>
+</svg>
