@@ -39,7 +39,11 @@ export default function InquiryForm({ type = "general" }: InquiryFormProps) {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Placeholder for form submission
+    const res = await fetch('https://formspree.io/f/xykodrlj', {
+    method: 'POST',
+    body: JSON.stringify(formData),
+    headers: { 'Content-Type': 'application/json' },
+    })
     console.log("Form submitted:", formData);
     setSubmitted(true);
     setTimeout(() => setSubmitted(false), 3000);
