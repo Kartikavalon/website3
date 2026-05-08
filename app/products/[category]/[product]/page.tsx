@@ -145,13 +145,13 @@ export default function ProductPage({ params }: ProductPageProps) {
         <div className="container mx-auto max-w-6xl">
           <h2 className="font-serif text-3xl font-bold mb-12">Applications</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {product.applications?.ev && (
+            {'ev' in product.applications && product.applications.ev && (
               <div>
                 <h3 className="font-serif text-xl font-semibold text-primary-600 mb-4">
                   Electric Vehicles & Batteries
                 </h3>
                 <ul className="space-y-2 font-sans text-slate-400">
-                  {product.applications?.ev?.map((app) => (
+                  {product.applications.ev.map((app) => (
                     <li key={app} className="flex items-start gap-3">
                       <span className="text-primary-600 mt-1">✓</span>
                       <span>{app}</span>
@@ -161,13 +161,13 @@ export default function ProductPage({ params }: ProductPageProps) {
               </div>
             )}
 
-            {product.applications?.semiconductor && (
+            {'semiconductor' in product.applications && product.applications.semiconductor && (
               <div>
                 <h3 className="font-serif text-xl font-semibold text-primary-600 mb-4">
                   Semiconductor
                 </h3>
                 <ul className="space-y-2 font-sans text-slate-400">
-                  {product.applications?.semiconductor?.map((app) => (
+                  {product.applications.semiconductor.map((app) => (
                     <li key={app} className="flex items-start gap-3">
                       <span className="text-primary-600 mt-1">✓</span>
                       <span>{app}</span>
@@ -177,13 +177,13 @@ export default function ProductPage({ params }: ProductPageProps) {
               </div>
             )}
 
-            {product.applications?.aerospace && (
+            {'aerospace' in product.applications && product.applications.aerospace && (
               <div>
                 <h3 className="font-serif text-xl font-semibold text-primary-600 mb-4">
                   Aerospace
                 </h3>
                 <ul className="space-y-2 font-sans text-slate-400">
-                  {product.applications?.aerospace?.map((app) => (
+                  {product.applications.aerospace.map((app) => (
                     <li key={app} className="flex items-start gap-3">
                       <span className="text-primary-600 mt-1">✓</span>
                       <span>{app}</span>
@@ -193,13 +193,13 @@ export default function ProductPage({ params }: ProductPageProps) {
               </div>
             )}
 
-            {product.applications?.magnets && (
+            {'magnets' in product.applications && product.applications.magnets && (
               <div>
                 <h3 className="font-serif text-xl font-semibold text-primary-600 mb-4">
                   Permanent Magnets
                 </h3>
                 <ul className="space-y-2 font-sans text-slate-400">
-                  {product.applications?.magnets?.map((app) => (
+                  {product.applications.magnets.map((app) => (
                     <li key={app} className="flex items-start gap-3">
                       <span className="text-primary-600 mt-1">✓</span>
                       <span>{app}</span>
@@ -209,13 +209,13 @@ export default function ProductPage({ params }: ProductPageProps) {
               </div>
             )}
 
-            {product.applications?.optical && (
+            {'optical' in product.applications && product.applications.optical && (
               <div>
                 <h3 className="font-serif text-xl font-semibold text-primary-600 mb-4">
                   Optical & Display
                 </h3>
                 <ul className="space-y-2 font-sans text-slate-400">
-                  {product.applications?.optical?.map((app) => (
+                  {product.applications.optical.map((app) => (
                     <li key={app} className="flex items-start gap-3">
                       <span className="text-primary-600 mt-1">✓</span>
                       <span>{app}</span>
@@ -225,13 +225,13 @@ export default function ProductPage({ params }: ProductPageProps) {
               </div>
             )}
 
-            {product.applications?.catalysts && (
+            {'catalysts' in product.applications && product.applications.catalysts && (
               <div>
                 <h3 className="font-serif text-xl font-semibold text-primary-600 mb-4">
                   Catalysts
                 </h3>
                 <ul className="space-y-2 font-sans text-slate-400">
-                  {product.applications?.catalysts?.map((app) => (
+                  {product.applications.catalysts.map((app) => (
                     <li key={app} className="flex items-start gap-3">
                       <span className="text-primary-600 mt-1">✓</span>
                       <span>{app}</span>
@@ -241,13 +241,13 @@ export default function ProductPage({ params }: ProductPageProps) {
               </div>
             )}
 
-            {product.applications?.metallurgy && (
+            {'metallurgy' in product.applications && product.applications.metallurgy && (
               <div>
                 <h3 className="font-serif text-xl font-semibold text-primary-600 mb-4">
                   Metallurgy
                 </h3>
                 <ul className="space-y-2 font-sans text-slate-400">
-                  {product.applications?.metallurgy?.map((app) => (
+                  {product.applications.metallurgy.map((app) => (
                     <li key={app} className="flex items-start gap-3">
                       <span className="text-primary-600 mt-1">✓</span>
                       <span>{app}</span>
