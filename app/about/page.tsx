@@ -167,7 +167,7 @@ export default function About() {
           </p>
           <a
             href="/contact"
-            className="inline-block px-8 py-4 bg-primary-600 text-slate-950 font-sans font-semibold rounded hover:bg-primary-500 transition-all duration-300 hover:shadow-glow-teal"
+            className="inline-block px-8 py-4 bg-primary-600 text-white font-sans font-semibold rounded hover:bg-primary-500 transition-all duration-300 hover:shadow-glow-teal"
           >
             Get in Touch
           </a>

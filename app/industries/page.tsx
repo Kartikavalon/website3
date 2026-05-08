@@ -46,7 +46,7 @@ export default function Industries() {
                     {industry.materials.map((material) => (
                       <span
                         key={material}
-                        className="px-3 py-1 bg-primary-600/20 text-primary-300 text-xs font-sans rounded-full border border-primary-600/30"
+                        className="px-3 py-1 bg-primary-600/20 text-primary-700 text-xs font-sans rounded-full border border-primary-600/30"
                       >
                         {material}
                       </span>

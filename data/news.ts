@@ -47,7 +47,7 @@ Kaytherix has ramped up production capacity to meet this surging demand, with ne
 The shortage of reliable suppliers has created opportunities for companies with proven processing capabilities and consistent quality standards. We continue to invest in state-of-the-art facilities and technical expertise to serve the growing global market.`,
     author: "Dr. Sarah Chen, Market Analyst",
     featured: true,
-    image: "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=800&h=400&fit=crop",
+    image: "https://images.unsplash.com/photo-1532788148375-8b0342a1a426?w=800&h=400&fit=crop",
   },
   {
     id: "sustainable-extraction",
@@ -210,7 +210,7 @@ The EV industry is experiencing rapid innovation. Our research team continues de
 This research validates our strategic focus on automotive and renewable energy sectors—markets where material quality directly impacts real-world performance and environmental impact.`,
     author: "Dr. Emily Zhang, Research Director",
     featured: false,
-    image: "https://images.unsplash.com/photo-1559056199-641a0ac8b8d5?w=800&h=400&fit=crop",
+    image: "https://images.unsplash.com/photo-1553531088-df340cf313ce?w=800&h=400&fit=crop",
   },
   {
     id: "semiconductor-advancement",
@@ -286,7 +286,7 @@ These trends ensure continued strong demand for the ultra-pure semiconductor mat
 We invite semiconductor manufacturers, materials researchers, and technology companies to explore collaboration opportunities. Our technical team is available to discuss custom material specifications and volume requirements.`,
     author: "Dr. Robert Kim, Materials Scientist",
     featured: false,
-    image: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&h=400&fit=crop",
+    image: "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=800&h=400&fit=crop",
   },
 ];
 

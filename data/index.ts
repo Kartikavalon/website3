@@ -2,6 +2,9 @@
 import { LIGHT_RARE_EARTHS } from "./light-rare-earths";
 import { HEAVY_RARE_EARTHS } from "./heavy-rare-earths";
 import { STRATEGIC_METALS } from "./strategic-metals";
+import { ADVANCED_MATERIALS } from "./advanced-materials";
+import { INDUSTRIAL_CHEMICALS } from "./industrial-chemicals";
+import { PRECISION_SUBSTRATES } from "./precision-substrates";
 import { PRODUCT_CATEGORIES } from "@/lib/types";
 
 export { PRODUCT_CATEGORIES };
@@ -10,6 +13,9 @@ export const ALL_PRODUCTS = [
   ...LIGHT_RARE_EARTHS,
   ...HEAVY_RARE_EARTHS,
   ...STRATEGIC_METALS,
+  ...ADVANCED_MATERIALS,
+  ...INDUSTRIAL_CHEMICALS,
+  ...PRECISION_SUBSTRATES,
 ];
 
 export const getProductById = (id: string) => {

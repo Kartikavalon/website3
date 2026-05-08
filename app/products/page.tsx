@@ -135,7 +135,7 @@ export default function Products() {
           <div className="flex flex-col md:flex-row gap-4 justify-center">
             <a
               href="/contact"
-              className="px-8 py-4 bg-primary-600 text-slate-950 font-sans font-semibold rounded hover:bg-primary-500 transition-all duration-300 hover:shadow-glow-teal"
+              className="px-8 py-4 bg-primary-600 text-white font-sans font-semibold rounded hover:bg-primary-500 transition-all duration-300 hover:shadow-glow-teal"
             >
               Request Technical Datasheet
             </a>
@@ -144,6 +144,59 @@ export default function Products() {
               className="px-8 py-4 border border-primary-600 text-primary-600 font-sans font-semibold rounded hover:bg-primary-600/10 transition-all duration-300"
             >
               Submit RFQ
+            </a>
+          </div>
+        </div>
+      </section>
+
+      {/* Custom Products Section */}
+      <section className="py-20 px-4 bg-gray-50 border-t border-gray-200">
+        <div className="container mx-auto max-w-3xl">
+          <div className="bg-white p-8 rounded-lg border border-gray-300">
+            <h2 className="font-serif text-3xl font-bold mb-4 text-gray-900">
+              Custom Materials Available
+            </h2>
+            <p className="font-sans text-lg text-gray-700 mb-6">
+              Don't see what you're looking for? Kaytherix Industries specializes in custom material solutions tailored to your specific requirements:
+            </p>
+            <ul className="space-y-4 mb-8">
+              <li className="flex items-start gap-3">
+                <span className="text-primary-600 font-bold text-xl">✓</span>
+                <div>
+                  <p className="font-sans font-semibold text-gray-900">Custom Alloy Formulations</p>
+                  <p className="font-sans text-sm text-gray-600">Engineered compositions for specific performance requirements</p>
+                </div>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="text-primary-600 font-bold text-xl">✓</span>
+                <div>
+                  <p className="font-sans font-semibold text-gray-900">Non-Standard Purity Grades</p>
+                  <p className="font-sans text-sm text-gray-600">Materials with purity specifications beyond standard offerings</p>
+                </div>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="text-primary-600 font-bold text-xl">✓</span>
+                <div>
+                  <p className="font-sans font-semibold text-gray-900">Specialized Form Factors</p>
+                  <p className="font-sans text-sm text-gray-600">Custom shapes, sizes, and delivery formats</p>
+                </div>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="text-primary-600 font-bold text-xl">✓</span>
+                <div>
+                  <p className="font-sans font-semibold text-gray-900">Volume Scaling</p>
+                  <p className="font-sans text-sm text-gray-600">From laboratory quantities to industrial production volumes</p>
+                </div>
+              </li>
+            </ul>
+            <p className="font-sans text-gray-700 mb-8">
+              Our technical team works closely with customers to develop materials that meet exact specifications and performance standards. Contact us today to discuss your custom requirements.
+            </p>
+            <a
+              href="/contact"
+              className="inline-block px-6 py-3 bg-primary-600 text-white font-sans font-semibold rounded hover:bg-primary-500 transition-all duration-300"
+            >
+              Contact for Custom Solutions
             </a>
           </div>
         </div>
