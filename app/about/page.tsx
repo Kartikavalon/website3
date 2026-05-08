@@ -14,7 +14,7 @@ export default function About() {
           <h1 className="font-serif text-6xl md:text-7xl font-bold mb-6 text-white text-white text-white">
             About Kaytherix <span className="text-primary-400 drop-shadow-[0_0_20px_rgba(20,184,166,0.5)]">Industries</span>
           </h1>
-          <p className="font-sans text-lg text-gray-300 mb-4">
+          <p className="font-sans text-lg text-gray-700 mb-4">
             Global leader in rare earth refinement and strategic metals supply
           </p>
         </div>
@@ -161,7 +161,7 @@ export default function About() {
       {/* CTA */}
       <section className="py-20 px-4 bg-gradient-industrial">
         <div className="container mx-auto max-w-3xl text-center">
-          <h2 className="font-serif text-4xl font-bold mb-6">Ready to Partner?</h2>
+          <h2 className="font-serif text-6xl md:text-7xl font-bold mb-6 text-white">Ready to Partner?</h2>
           <p className="font-sans text-lg text-gray-700 mb-8">
             Connect with our team to discuss your material requirements and specifications.
           </p>

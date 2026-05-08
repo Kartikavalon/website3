@@ -232,7 +232,7 @@ export default function Home() {
           <h2 className="font-serif text-6xl md:text-7xl font-bold mb-6 text-white text-white text-white">
             Ready to Order Premium Materials?
           </h2>
-          <p className="font-sans text-lg text-gray-300 mb-4">
+          <p className="font-sans text-lg text-gray-700 mb-4">
             Connect with our team to discuss your material requirements, specifications, and volume needs.
           </p>
           <div className="flex flex-col md:flex-row gap-4 justify-center">
