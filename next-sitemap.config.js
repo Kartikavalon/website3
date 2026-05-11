@@ -5,12 +5,17 @@ module.exports = {
   changefreq: 'weekly',
   priority: 0.7,
   sitemapSize: 50000,
-  exclude: ['/_not-found', '/404'],
+  exclude: ['/_not-found', '/404', '/api'],
   robotsTxtOptions: {
     sitemaps: [
       'https://kaytherix.com/sitemap.xml',
     ],
     policies: [
+      {
+        userAgent: 'Googlebot',
+        allow: ['/'],
+        disallow: [],
+      },
       {
         userAgent: '*',
         allow: '/',
