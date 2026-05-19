@@ -1,6 +1,16 @@
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import SectionHeader from "@/components/SectionHeader";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Privacy Policy | Kaytherix Industries",
+  description:
+    "Privacy Policy for Kaytherix Industries. Learn how we collect, use, and protect your personal information.",
+  alternates: {
+    canonical: "https://kaytherix.com/privacy",
+  },
+};
 
 export default function PrivacyPolicy() {
   return (

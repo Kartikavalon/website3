@@ -12,6 +12,16 @@ const nextConfig = {
   compress: true,
   poweredByHeader: false,
   reactStrictMode: true,
+  trailingSlash: false,
+  redirects: async () => {
+    return [
+      {
+        source: '/:path+/',
+        destination: '/:path+',
+        permanent: true,
+      },
+    ];
+  },
 }
 
 module.exports = nextConfig

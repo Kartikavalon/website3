@@ -3,12 +3,33 @@ import Link from "next/link";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import InquiryForm from "@/components/InquiryForm";
+import type { Metadata } from "next";
 import { ALL_PRODUCTS, PRODUCT_CATEGORIES } from "@/data/index";
 
 interface ProductPageProps {
   params: {
     category: string;
     product: string;
+  };
+}
+
+export async function generateMetadata({
+  params,
+}: ProductPageProps): Promise<Metadata> {
+  const product = ALL_PRODUCTS.find((p) => p.id === params.product);
+
+  if (!product) {
+    return {
+      title: "Product Not Found | Kaytherix Industries",
+    };
+  }
+
+  return {
+    title: `${product.name} | Kaytherix Industries | High Purity Rare Earth Elements`,
+    description: `${product.name} (${product.symbol}) - ${product.shortDescription} Premium supplier of ${product.name} for industrial applications.`,
+    alternates: {
+      canonical: `https://kaytherix.com/products/${product.category}/${product.id}`,
+    },
   };
 }
 

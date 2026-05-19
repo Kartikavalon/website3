@@ -1,6 +1,16 @@
 import SectionHeader from "@/components/SectionHeader";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Manufacturing & Refining | Kaytherix Industries | Rare Earth Processing",
+  description:
+    "Discover Kaytherix Industries advanced manufacturing and refining processes for rare earth elements and strategic metals including furnace systems, vacuum melting, and quality control.",
+  alternates: {
+    canonical: "https://kaytherix.com/manufacturing",
+  },
+};
 
 export default function Manufacturing() {
   return (

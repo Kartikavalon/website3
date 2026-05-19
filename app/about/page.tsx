@@ -1,7 +1,17 @@
 import SectionHeader from "@/components/SectionHeader";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
+import type { Metadata } from "next";
 import { SERVICES, CERTIFICATIONS } from "@/data/index";
+
+export const metadata: Metadata = {
+  title: "About Kaytherix Industries | Rare Earth Elements & Strategic Metals",
+  description:
+    "Learn about Kaytherix Industries - a global leader in rare earth element refinement and strategic metals supply with certified production capabilities.",
+  alternates: {
+    canonical: "https://kaytherix.com/about",
+  },
+};
 
 export default function About() {
   return (

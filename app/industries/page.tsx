@@ -1,7 +1,17 @@
 import SectionHeader from "@/components/SectionHeader";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
+import type { Metadata } from "next";
 import { INDUSTRIES_SERVED } from "@/data/index";
+
+export const metadata: Metadata = {
+  title: "Industries Served | Kaytherix Industries | Rare Earth Materials",
+  description:
+    "Kaytherix Industries serves aerospace, semiconductors, EVs, renewable energy, magnets, and advanced industrial sectors with premium rare earth elements and strategic metals.",
+  alternates: {
+    canonical: "https://kaytherix.com/industries",
+  },
+};
 
 export default function Industries() {
   return (

@@ -4,10 +4,20 @@ import SectionHeader from "@/components/SectionHeader";
 import ProductCard from "@/components/ProductCard";
 import Footer from "@/components/Footer";
 import Link from "next/link";
+import type { Metadata } from "next";
 import { LIGHT_RARE_EARTHS } from "@/data/light-rare-earths";
 import { HEAVY_RARE_EARTHS } from "@/data/heavy-rare-earths";
 import { STRATEGIC_METALS } from "@/data/strategic-metals";
 import { INDUSTRIES_SERVED, SERVICES } from "@/data/index";
+
+export const metadata: Metadata = {
+  title: "Kaytherix Industries | Rare Earth Elements & Strategic Metals Supplier",
+  description:
+    "Global leader in rare earth element refining and strategic metals supply. Premium quality materials, high-purity processing, and export-grade production for advanced industries.",
+  alternates: {
+    canonical: "https://kaytherix.com",
+  },
+};
 
 export default function Home() {
   const featuredLightRareEarths = LIGHT_RARE_EARTHS.slice(0, 3);

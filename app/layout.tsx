@@ -72,9 +72,6 @@ export const metadata: Metadata = {
     title: "Kaytherix Industries",
     description: "Global supplier of rare earth elements and strategic metals",
   },
-  alternates: {
-    canonical: "https://kaytherix.com",
-  },
 };
 
 export default function RootLayout({

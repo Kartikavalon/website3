@@ -2,6 +2,16 @@ import SectionHeader from "@/components/SectionHeader";
 import InquiryForm from "@/components/InquiryForm";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Contact Kaytherix Industries | Rare Earth & Strategic Metals Supplier",
+  description:
+    "Contact Kaytherix Industries for rare earth elements, strategic metals, and advanced materials. Get quotes, technical support, and partnership opportunities.",
+  alternates: {
+    canonical: "https://kaytherix.com/contact",
+  },
+};
 
 export default function Contact() {
   return (

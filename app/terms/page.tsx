@@ -1,6 +1,16 @@
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import SectionHeader from "@/components/SectionHeader";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Terms of Service | Kaytherix Industries",
+  description:
+    "Terms of Service for Kaytherix Industries. Please read these terms carefully before using our website and services.",
+  alternates: {
+    canonical: "https://kaytherix.com/terms",
+  },
+};
 
 export default function TermsOfService() {
   return (
