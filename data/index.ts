@@ -11,6 +11,14 @@ import { NANOTECH_MATERIALS } from "./nanotech-materials";
 import { RARE_EARTH_OXIDES } from "./rare-earth-oxides";
 import { SPECIALTY_METALS } from "./specialty-metals";
 import { ENERGY_MATERIALS } from "./energy-materials";
+import { CHEMICAL_CATALYSTS } from "./chemical-catalysts";
+import { INDUSTRIAL_GASES } from "./industrial-gases";
+import { ADVANCED_FIBRES } from "./advanced-fibres";
+import { MINERAL_SALTS } from "./mineral-salts";
+import { PHARMACEUTICAL_PRECURSORS } from "./pharmaceutical-precursors";
+import { REFRACTORY_MATERIALS } from "./refractory-materials";
+import { POLYMERS_COMPOSITES } from "./polymers-composites";
+import { PRECIOUS_COMPOUNDS } from "./precious-compounds";
 import { PRODUCT_CATEGORIES } from "@/lib/types";
 
 export { PRODUCT_CATEGORIES };
@@ -28,6 +36,14 @@ export const ALL_PRODUCTS = [
   ...RARE_EARTH_OXIDES,
   ...SPECIALTY_METALS,
   ...ENERGY_MATERIALS,
+  ...CHEMICAL_CATALYSTS,
+  ...INDUSTRIAL_GASES,
+  ...ADVANCED_FIBRES,
+  ...MINERAL_SALTS,
+  ...PHARMACEUTICAL_PRECURSORS,
+  ...REFRACTORY_MATERIALS,
+  ...POLYMERS_COMPOSITES,
+  ...PRECIOUS_COMPOUNDS,
 ];
 
 export const getProductById = (id: string) => {
