@@ -18,14 +18,14 @@ export default function Navigation() {
   ];
 
   return (
-    <nav className="fixed top-0 w-full bg-white/95 backdrop-blur-md border-b border-gray-200 z-50">
-      <div className="container mx-auto max-w-7xl px-4 py-4 flex items-center justify-between">
+    <nav className="fixed top-0 w-full bg-gradient-to-r from-navy-600 via-primary-600 to-cyan-400 backdrop-blur-md border-b border-amber-400/30 z-50 shadow-lg">
+      <div className="container mx-auto max-w-7xl px-4 py-3 flex items-center justify-between">
         {/* Logo */}
-        <Link href="/" className="flex items-center gap-2">
-          <div className="text-2xl font-serif font-bold text-primary-600">
+        <Link href="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
+          <div className="text-2xl font-serif font-bold text-white drop-shadow-md">
             Kaytherix
           </div>
-          <span className="text-xs text-slate-400 font-sans uppercase tracking-widest">Industries</span>
+          <span className="text-xs text-amber-300 font-sans uppercase tracking-widest font-semibold">Industries</span>
         </Link>
 
         {/* Desktop Navigation */}
@@ -34,7 +34,7 @@ export default function Navigation() {
             <li key={link.name}>
               <Link
                 href={link.href}
-                className="text-sm font-sans text-gray-600 hover:text-primary-600 transition-colors duration-200 uppercase tracking-wide"
+                className="text-sm font-sans text-white hover:text-amber-300 transition-all duration-200 uppercase tracking-wide font-medium"
               >
                 {link.name}
               </Link>
@@ -45,7 +45,7 @@ export default function Navigation() {
         {/* CTA Button */}
         <Link
           href="/contact"
-          className="hidden md:inline-block px-6 py-2 bg-primary-600 text-slate-950 font-sans font-semibold rounded text-sm hover:bg-primary-500 transition-all duration-200"
+          className="hidden md:inline-block px-6 py-2 bg-gradient-to-r from-amber-400 to-amber-500 text-navy-900 font-sans font-semibold rounded text-sm hover:shadow-glow-gold transition-all duration-300"
         >
           Get Quote
         </Link>
@@ -53,7 +53,7 @@ export default function Navigation() {
         {/* Mobile Menu Button */}
         <button
           onClick={() => setIsOpen(!isOpen)}
-          className="md:hidden text-slate-300 hover:text-primary-600 transition-colors"
+          className="md:hidden text-amber-300 hover:text-white transition-colors"
         >
           {isOpen ? <HiX size={24} /> : <HiMenu size={24} />}
         </button>
@@ -61,13 +61,13 @@ export default function Navigation() {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="md:hidden bg-gray-50 border-b border-gray-200">
+        <div className="md:hidden bg-gradient-to-b from-navy-700 to-navy-900 border-b border-amber-400/30">
           <ul className="flex flex-col p-4 gap-4">
             {navLinks.map((link) => (
               <li key={link.name}>
                 <Link
                   href={link.href}
-                  className="text-gray-700 hover:text-primary-600 transition-colors font-sans text-sm"
+                  className="text-white hover:text-amber-300 transition-colors font-sans text-sm font-medium"
                   onClick={() => setIsOpen(false)}
                 >
                   {link.name}
@@ -77,7 +77,7 @@ export default function Navigation() {
             <li>
               <Link
                 href="/contact"
-                className="block px-4 py-2 bg-primary-600 text-slate-950 font-sans font-semibold rounded text-sm hover:bg-primary-500 transition-all duration-200 text-center"
+                className="block px-4 py-2 bg-gradient-to-r from-amber-400 to-amber-500 text-navy-900 font-sans font-semibold rounded text-sm hover:shadow-glow-gold transition-all duration-200 text-center"
                 onClick={() => setIsOpen(false)}
               >
                 Get Quote

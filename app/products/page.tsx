@@ -31,19 +31,19 @@ export default function Products() {
       <Navigation />
 
       {/* Hero */}
-      <section className="pt-32 pb-20 px-4 bg-gradient-to-b from-white to-gray-50">
+      <section className="pt-32 pb-20 px-4 bg-gradient-to-b from-navy-50 via-white to-gray-50">
         <div className="container mx-auto max-w-5xl text-center">
-          <h1 className="font-serif text-5xl md:text-6xl font-bold mb-6 text-gray-900">
-            Our <span className="text-primary-600">Products</span>
+          <h1 className="font-serif text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-navy-600 via-amber-500 to-cyan-500 bg-clip-text text-transparent">
+            Our Products
           </h1>
-          <p className="font-sans text-lg text-gray-600">
-            Premium rare earth elements, strategic metals, and advanced materials
+          <p className="font-sans text-lg text-gray-700">
+            Explore our comprehensive catalog of premium rare earth elements, strategic metals, and advanced materials across 20+ specialized categories
           </p>
         </div>
       </section>
 
       {/* Filtering and Search */}
-      <section className="py-12 px-4 bg-gray-50 border-b border-gray-200">
+      <section className="py-12 px-4 bg-gradient-to-b from-gray-50 to-white border-b border-amber-200/50">
         <div className="container mx-auto max-w-6xl">
           {/* Search */}
           <div className="mb-8">
@@ -52,34 +52,34 @@ export default function Products() {
               placeholder="Search by name or symbol (e.g., Neodymium, Nd)..."
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
-              className="w-full px-4 py-3 bg-white border border-gray-300 rounded text-gray-900 font-sans placeholder-gray-500 focus:outline-none focus:border-primary-600 focus:ring-1 focus:ring-primary-600"
+              className="w-full px-4 py-3 bg-white border-2 border-gray-300 rounded-lg text-gray-900 font-sans placeholder-gray-500 focus:outline-none focus:border-amber-400 focus:ring-2 focus:ring-amber-400/30 transition-all"
             />
           </div>
 
           {/* Category Filter */}
           <div>
-            <p className="font-sans text-sm text-gray-700 mb-4 uppercase tracking-wide">
+            <p className="font-sans text-sm text-gray-700 mb-4 uppercase tracking-wide font-semibold">
               Filter by Category
             </p>
             <div className="flex flex-wrap gap-3">
               <button
                 onClick={() => setSelectedCategory(null)}
-                className={`px-4 py-2 rounded font-sans text-sm font-semibold transition-all ${
+                className={`px-4 py-2 rounded-lg font-sans text-sm font-semibold transition-all ${
                   selectedCategory === null
-                    ? "bg-primary-600 text-white"
-                    : "border border-gray-300 text-gray-700 hover:border-primary-600"  
+                    ? "bg-gradient-to-r from-navy-600 to-cyan-600 text-white shadow-glow-cyan"
+                    : "border-2 border-gray-300 text-gray-700 hover:border-amber-400 hover:bg-amber-50"
                 }`}
               >
-                All Products
+                All Products ({ALL_PRODUCTS.length})
               </button>
               {categories.map((cat) => (
                 <button
                   key={cat.key}
                   onClick={() => setSelectedCategory(cat.key)}
-                  className={`px-4 py-2 rounded font-sans text-sm font-semibold transition-all ${
+                  className={`px-4 py-2 rounded-lg font-sans text-sm font-semibold transition-all ${
                     selectedCategory === cat.key
-                      ? "bg-primary-600 text-white"
-                      : "border border-gray-300 text-gray-700 hover:border-primary-600"
+                      ? "bg-gradient-to-r from-amber-400 to-amber-500 text-navy-900 shadow-glow-gold"
+                      : "border-2 border-gray-300 text-gray-700 hover:border-amber-400 hover:bg-amber-50"
                   }`}
                 >
                   {cat.label}
@@ -89,8 +89,8 @@ export default function Products() {
           </div>
 
           {/* Results Count */}
-          <p className="font-sans text-sm text-gray-600 mt-6">
-            Showing {filteredProducts.length} product{filteredProducts.length !== 1 ? "s" : ""}
+          <p className="font-sans text-sm text-gray-600 mt-6 font-medium">
+            Showing <span className="text-amber-600 font-bold">{filteredProducts.length}</span> product{filteredProducts.length !== 1 ? "s" : ""}
           </p>
         </div>
       </section>
