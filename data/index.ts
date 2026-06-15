@@ -5,6 +5,12 @@ import { STRATEGIC_METALS } from "./strategic-metals";
 import { ADVANCED_MATERIALS } from "./advanced-materials";
 import { INDUSTRIAL_CHEMICALS } from "./industrial-chemicals";
 import { PRECISION_SUBSTRATES } from "./precision-substrates";
+import { MAGNETIC_MATERIALS } from "./magnetic-materials";
+import { DEFENSE_MATERIALS } from "./defense-materials";
+import { NANOTECH_MATERIALS } from "./nanotech-materials";
+import { RARE_EARTH_OXIDES } from "./rare-earth-oxides";
+import { SPECIALTY_METALS } from "./specialty-metals";
+import { ENERGY_MATERIALS } from "./energy-materials";
 import { PRODUCT_CATEGORIES } from "@/lib/types";
 
 export { PRODUCT_CATEGORIES };
@@ -16,6 +22,12 @@ export const ALL_PRODUCTS = [
   ...ADVANCED_MATERIALS,
   ...INDUSTRIAL_CHEMICALS,
   ...PRECISION_SUBSTRATES,
+  ...MAGNETIC_MATERIALS,
+  ...DEFENSE_MATERIALS,
+  ...NANOTECH_MATERIALS,
+  ...RARE_EARTH_OXIDES,
+  ...SPECIALTY_METALS,
+  ...ENERGY_MATERIALS,
 ];
 
 export const getProductById = (id: string) => {

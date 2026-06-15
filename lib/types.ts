@@ -7,7 +7,7 @@ export interface Product {
   atomicNumber: number;
   atomicWeight: string;
   casNumber: string;
-  category: "light-rare-earth" | "heavy-rare-earth" | "strategic-metals" | "advanced-materials" | "industrial-chemicals" | "precision-substrates";
+  category: "light-rare-earth" | "heavy-rare-earth" | "strategic-metals" | "advanced-materials" | "industrial-chemicals" | "precision-substrates" | "magnetic-materials" | "defense-materials" | "nanotech-materials" | "rare-earth-oxides" | "specialty-metals" | "energy-materials";
   shortDescription: string;
   fullDescription: string;
   purityGrades: string[];
@@ -20,6 +20,13 @@ export interface Product {
     optical?: string[];
     catalysts?: string[];
     metallurgy?: string[];
+    optoelectronics?: string[];
+    energy?: string[];
+    medical?: string[];
+    defense?: string[];
+    research?: string[];
+    ceramics?: string[];
+    automotive?: string[];
   };
   specifications: {
     label: string;
