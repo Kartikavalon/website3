@@ -13,6 +13,16 @@ const nextConfig = {
   poweredByHeader: false,
   reactStrictMode: true,
   trailingSlash: false,
+  async redirects() {
+    return [
+      {
+        source: '/:path*',
+        has: [{ type: 'host', value: 'www.kaytherix.com' }],
+        destination: 'https://kaytherix.com/:path*',
+        permanent: true,
+      },
+    ];
+  },
 }
 
 module.exports = nextConfig
