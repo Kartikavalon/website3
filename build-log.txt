@@ -5,3 +5,14 @@
   ▲ Next.js 14.2.35
 
    Creating an optimized production build ...
+ ✓ Compiled successfully
+   Linting and checking validity of types ...
+   Collecting page data ...
+
+> Build error occurred
+[Error: ENOTEMPTY: directory not empty, rmdir 'D:\desktop\code\website3\website3\.next\export'] {
+  errno: -4051,
+  code: 'ENOTEMPTY',
+  syscall: 'rmdir',
+  path: 'D:\\desktop\\code\\website3\\website3\\.next\\export'
+}
