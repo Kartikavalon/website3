@@ -44,13 +44,13 @@ export default function News() {
       {featuredPost && (
         <section className="py-16 px-4 bg-gray-50">
           <div className="container mx-auto max-w-6xl">
-            <div className="bg-gradient-to-r from-primary-600 to-primary-700 rounded-lg p-8 md:p-12 text-white">
+            <div className="bg-gradient-to-r from-primary-600 to-primary-700 rounded-lg p-8 md:p-12 text-contrast">
               <div className="flex flex-col md:flex-row gap-8 items-start">
                 <div className="flex-1">
-                  <span className="inline-block bg-primary-500 text-white px-3 py-1 rounded-full text-sm font-semibold mb-4">
+                  <span className="inline-block bg-primary-500 text-contrast px-3 py-1 rounded-full text-sm font-semibold mb-4">
                     Featured Story
                   </span>
-                  <h2 className="font-serif text-3xl md:text-4xl font-bold text-white mb-4">
+                  <h2 className="font-serif text-3xl md:text-4xl font-bold text-contrast mb-4">
                     {featuredPost.title}
                   </h2>
                   <p className="text-primary-100 mb-6">{featuredPost.excerpt}</p>
@@ -94,7 +94,7 @@ export default function News() {
                 onClick={() => setSelectedCategory(null)}
                 className={`px-4 py-2 rounded-lg font-semibold transition-colors ${
                   !selectedCategory
-                    ? "bg-primary-600 text-white"
+                    ? "bg-primary-600 text-contrast"
                   : "bg-gray-100 text-gray-700 hover:bg-gray-200"
                 }`}
               >
@@ -106,7 +106,7 @@ export default function News() {
                   onClick={() => setSelectedCategory(category)}
                   className={`px-4 py-2 rounded-lg font-semibold transition-colors ${
                     selectedCategory === category
-                      ? "bg-primary-600 text-white"
+                      ? "bg-primary-600 text-contrast"
                       : "bg-white text-gray-700 hover:bg-gray-100"
                   }`}
                 >
@@ -178,7 +178,7 @@ export default function News() {
             />
             <button
               type="submit"
-              className="bg-primary-600 hover:bg-primary-700 text-white px-6 py-3 rounded-lg font-semibold transition-colors hover:shadow-lg"
+              className="bg-primary-600 hover:bg-primary-700 text-contrast px-6 py-3 rounded-lg font-semibold transition-colors hover:shadow-lg"
             >
               Subscribe
             </button>

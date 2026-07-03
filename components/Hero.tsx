@@ -74,7 +74,7 @@ export default function Hero() {
         {/* Main Heading */}
         <motion.h1
           variants={itemVariants}
-          className="text-5xl md:text-7xl lg:text-8xl font-serif font-bold mb-6 text-white drop-shadow-lg"
+          className="text-5xl md:text-7xl lg:text-8xl font-serif font-bold mb-6 text-contrast drop-shadow-lg"
         >
           Kaytherix <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-300 to-cyan-300">Industries</span>
         </motion.h1>

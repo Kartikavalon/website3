@@ -20,7 +20,7 @@ export default function Manufacturing() {
       {/* Hero */}
       <section className="pt-32 pb-20 px-4 bg-gradient-industrial">
         <div className="container mx-auto max-w-5xl text-center">
-          <h1 className="font-serif text-6xl md:text-7xl font-bold mb-6 text-white">
+          <h1 className="font-serif text-6xl md:text-7xl font-bold mb-6 text-contrast">
             Manufacturing & <span className="text-primary-600">Refining</span>
           </h1>
           <p className="font-sans text-lg text-gray-700">

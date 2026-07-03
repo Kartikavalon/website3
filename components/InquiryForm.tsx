@@ -160,7 +160,7 @@ export default function InquiryForm({ type = "general" }: InquiryFormProps) {
       {/* Submit Button */}
       <button
         type="submit"
-        className="w-full px-6 py-3 bg-primary-600 text-white font-sans font-semibold rounded hover:bg-primary-500 transition-all duration-300 hover:shadow-glow-teal"
+        className="w-full px-6 py-3 bg-primary-600 text-contrast font-sans font-semibold rounded hover:bg-primary-500 transition-all duration-300 hover:shadow-glow-teal"
       >
         {submitted ? "✓ Message Sent" : "Send Inquiry"}
       </button>

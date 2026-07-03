@@ -22,7 +22,7 @@ export default function Navigation() {
       <div className="container mx-auto max-w-7xl px-4 py-3 flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
-          <div className="text-2xl font-serif font-bold text-white drop-shadow-md">
+          <div className="text-2xl font-serif font-bold text-contrast drop-shadow-md">
             Kaytherix
           </div>
           <span className="text-xs text-amber-300 font-sans uppercase tracking-widest font-semibold">Industries</span>
@@ -34,7 +34,7 @@ export default function Navigation() {
             <li key={link.name}>
               <Link
                 href={link.href}
-                className="text-sm font-sans text-white hover:text-amber-300 transition-all duration-200 uppercase tracking-wide font-medium"
+                className="text-sm font-sans text-contrast hover:text-amber-300 transition-all duration-200 uppercase tracking-wide font-medium"
               >
                 {link.name}
               </Link>
@@ -53,7 +53,7 @@ export default function Navigation() {
         {/* Mobile Menu Button */}
         <button
           onClick={() => setIsOpen(!isOpen)}
-          className="md:hidden text-amber-300 hover:text-white transition-colors"
+          className="md:hidden text-amber-300 hover:text-contrast transition-colors"
         >
           {isOpen ? <HiX size={24} /> : <HiMenu size={24} />}
         </button>
@@ -67,7 +67,7 @@ export default function Navigation() {
               <li key={link.name}>
                 <Link
                   href={link.href}
-                  className="text-white hover:text-amber-300 transition-colors font-sans text-sm font-medium"
+                  className="text-contrast hover:text-amber-300 transition-colors font-sans text-sm font-medium"
                   onClick={() => setIsOpen(false)}
                 >
                   {link.name}

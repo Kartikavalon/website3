@@ -66,7 +66,7 @@ export default function Products() {
                 onClick={() => setSelectedCategory(null)}
                 className={`px-4 py-2 rounded-lg font-sans text-sm font-semibold transition-all ${
                   selectedCategory === null
-                    ? "bg-gradient-to-r from-navy-600 to-cyan-600 text-white shadow-glow-cyan"
+                    ? "bg-gradient-to-r from-navy-600 to-cyan-600 text-contrast shadow-glow-cyan"
                     : "border-2 border-gray-300 text-gray-700 hover:border-amber-400 hover:bg-amber-50"
                 }`}
               >
@@ -135,7 +135,7 @@ export default function Products() {
           <div className="flex flex-col md:flex-row gap-4 justify-center">
             <a
               href="/contact"
-              className="px-8 py-4 bg-primary-600 text-white font-sans font-semibold rounded hover:bg-primary-500 transition-all duration-300 hover:shadow-glow-teal"
+              className="px-8 py-4 bg-primary-600 text-contrast font-sans font-semibold rounded hover:bg-primary-500 transition-all duration-300 hover:shadow-glow-teal"
             >
               Request Technical Datasheet
             </a>
@@ -194,7 +194,7 @@ export default function Products() {
             </p>
             <a
               href="/contact"
-              className="inline-block px-6 py-3 bg-primary-600 text-white font-sans font-semibold rounded hover:bg-primary-500 transition-all duration-300"
+              className="inline-block px-6 py-3 bg-primary-600 text-contrast font-sans font-semibold rounded hover:bg-primary-500 transition-all duration-300"
             >
               Contact for Custom Solutions
             </a>

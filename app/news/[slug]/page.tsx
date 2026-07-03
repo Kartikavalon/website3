@@ -17,14 +17,14 @@ export default function NewsArticle() {
       <main className="w-full bg-white text-gray-900">
         <Navigation />
         <section className="py-20 px-4">
-          <div className="container mx-auto max-w-4xl text-center">
+            <div className="container mx-auto max-w-4xl text-center">
             <h1 className="font-serif text-4xl font-bold mb-4">Article Not Found</h1>
             <p className="font-sans text-lg text-gray-600 mb-8">
               Sorry, the article you're looking for doesn't exist.
             </p>
             <Link
               href="/news"
-              className="inline-block px-6 py-3 bg-primary-600 text-white font-semibold rounded hover:bg-primary-500 transition-colors"
+              className="inline-block px-6 py-3 bg-primary-600 text-contrast font-semibold rounded hover:bg-primary-500 transition-colors"
             >
               Back to News
             </Link>
@@ -143,7 +143,7 @@ export default function NewsArticle() {
               </p>
               <a
                 href="/contact"
-                className="inline-block px-6 py-3 bg-primary-600 text-white font-semibold rounded hover:bg-primary-500 transition-colors"
+                className="inline-block px-6 py-3 bg-primary-600 text-contrast font-semibold rounded hover:bg-primary-500 transition-colors"
               >
                 Contact Our Team
               </a>

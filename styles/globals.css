@@ -57,6 +57,11 @@ body {
   background-clip: text;
 }
 
+/* Improved contrast utility for near-white text */
+.text-contrast {
+  @apply text-gray-100;
+}
+
 /* Responsive utilities */
 @media (prefers-reduced-motion: reduce) {
   * {

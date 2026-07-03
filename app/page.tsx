@@ -248,7 +248,7 @@ export default function Home() {
           <div className="flex flex-col md:flex-row gap-4 justify-center">
             <Link
               href="/contact"
-              className="px-8 py-4 bg-primary-600 text-white font-sans font-semibold rounded hover:bg-primary-700 transition-all duration-300 hover:shadow-lg"
+              className="px-8 py-4 bg-primary-600 text-contrast font-sans font-semibold rounded hover:bg-primary-700 transition-all duration-300 hover:shadow-lg"
             >
               Request Technical Datasheet
             </Link>
@@ -257,12 +257,12 @@ export default function Home() {
               className="px-8 py-4 border border-primary-600 text-primary-600 font-sans font-semibold rounded hover:bg-primary-600/10 transition-all duration-300"
             >
               Submit RFQ
+            <Link
+              href="/contact"
+              className="px-8 py-4 bg-primary-600 text-contrast font-sans font-semibold rounded hover:bg-primary-700 transition-all duration-300 hover:shadow-lg"
+            >
+              Request Technical Datasheet
             </Link>
-            <a
-              href="https://wa.me/918851294852?text=Hi%20Kaytherix%20Industries"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="px-8 py-4 bg-primary-600/20 border border-primary-600 text-primary-600 font-sans font-semibold rounded hover:bg-primary-600/30 transition-all duration-300"
             >
               Chat on WhatsApp
             </a>
