@@ -8,11 +8,59 @@
  ✓ Compiled successfully
    Linting and checking validity of types ...
    Collecting page data ...
+   Generating static pages (0/12) ...
+   Generating static pages (3/12) 
+   Generating static pages (6/12) 
+   Generating static pages (9/12) 
+ ✓ Generating static pages (12/12)
+   Finalizing page optimization ...
+   Collecting build traces ...
 
-> Build error occurred
-[Error: ENOTEMPTY: directory not empty, rmdir 'D:\desktop\code\website3\website3\.next\export'] {
-  errno: -4051,
-  code: 'ENOTEMPTY',
-  syscall: 'rmdir',
-  path: 'D:\\desktop\\code\\website3\\website3\\.next\\export'
-}
+Route (app)                              Size     First Load JS
+┌ ○ /                                    34.2 kB         131 kB
+├ ○ /_not-found                          873 B          88.1 kB
+├ ○ /about                               1.03 kB        98.3 kB
+├ ○ /contact                             1.99 kB        99.2 kB
+├ ○ /industries                          1.03 kB        98.3 kB
+├ ○ /manufacturing                       1.03 kB        98.3 kB
+├ ○ /news                                2.05 kB         108 kB
+├ ƒ /news/[slug]                         1.85 kB         108 kB
+├ ○ /privacy                             1.03 kB        98.3 kB
+├ ○ /products                            53.2 kB         151 kB
+├ ƒ /products/[category]/[product]       1.99 kB        99.2 kB
+└ ○ /terms                               1.03 kB        98.3 kB
++ First Load JS shared by all            87.3 kB
+  ├ chunks/117-b1d78db0bd7ac077.js       31.7 kB
+  ├ chunks/fd9d1056-d9feceabf46328f7.js  53.6 kB
+  └ other shared chunks (total)          1.9 kB
+
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+
+
+> kaytherix-industries@1.0.0 postbuild
+> next-sitemap
+
+✨ [next-sitemap] Loading next-sitemap config: file:///D:/desktop/code/website3/website3/next-sitemap.config.js
+✅ [next-sitemap] Generation completed
+┌───────────────┬────────┐
+│ (index)       │ Values │
+├───────────────┼────────┤
+│ indexSitemaps │ 1      │
+│ sitemaps      │ 1      │
+└───────────────┴────────┘
+-----------------------------------------------------
+ SITEMAP INDICES 
+-----------------------------------------------------
+
+   ○ https://kaytherix.com/sitemap.xml
+
+
+-----------------------------------------------------
+ SITEMAPS 
+-----------------------------------------------------
+
+   ○ https://kaytherix.com/sitemap-0.xml
+
+
