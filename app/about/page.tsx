@@ -34,6 +34,8 @@ export default function About() {
       </section>
 
       {/* Company Overview */}
+
+      {/* Company Overview */}
       <section className="py-20 px-4 bg-gray-50">
         <div className="container mx-auto max-w-5xl">
           <SectionHeader
@@ -81,7 +83,8 @@ export default function About() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mt-12">
             <div>
               <h3 className="font-serif text-2xl font-bold text-gray-900 mb-4">
-                Manufacturing & Refining
+                <span className="text-gray-700">Manufacturing &amp;</span>{" "}
+                <span className="text-teal-500 drop-shadow-[0_0_8px_rgba(20,184,166,0.2)]">Refining</span>
               </h3>
               <ul className="space-y-3 font-sans text-gray-700">
                 <li className="flex items-start gap-3">
@@ -174,8 +177,11 @@ export default function About() {
       {/* CTA */}
       <section className="py-20 px-4 bg-gradient-industrial">
         <div className="container mx-auto max-w-3xl text-center">
-          <h2 className="font-serif text-6xl md:text-7xl font-bold mb-6 text-primary-400 drop-shadow-[0_0_20px_rgba(20,184,166,0.5)]">Ready to Partner?</h2>
-          <p className="font-sans text-lg text-gray-700 mb-8">
+          <h1 className="font-serif text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight mb-6">
+            <span className="text-gray-700">Get in</span>{" "}
+            <span className="text-teal-500 drop-shadow-[0_0_12px_rgba(20,184,166,0.25)]">Touch</span>
+          </h1>
+          <p className="font-sans text-lg text-gray-700 mb-4">
             Connect with our team to discuss your material requirements and specifications.
           </p>
           <a

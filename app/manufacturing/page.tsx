@@ -20,10 +20,11 @@ export default function Manufacturing() {
       {/* Hero */}
       <section className="pt-32 pb-20 px-4 bg-gradient-industrial">
         <div className="container mx-auto max-w-5xl text-center">
-          <h1 className="font-serif text-6xl md:text-7xl font-bold mb-6 text-white">
-            Manufacturing & <span className="text-primary-600">Refining</span>
+          <h1 className="font-serif text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight mb-6">
+            <span className="text-gray-700">Manufacturing &amp;</span>{" "}
+            <span className="text-teal-500 drop-shadow-[0_0_12px_rgba(20,184,166,0.25)]">Refining</span>
           </h1>
-          <p className="font-sans text-lg text-gray-700">
+          <p className="font-sans text-lg text-gray-700 mb-4">
             Advanced infrastructure for premium rare earth and strategic metals production
           </p>
         </div>

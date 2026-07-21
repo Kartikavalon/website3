@@ -21,10 +21,11 @@ export default function Contact() {
       {/* Hero */}
       <section className="pt-32 pb-20 px-4 bg-gradient-industrial">
         <div className="container mx-auto max-w-5xl text-center">
-          <h1 className="font-serif text-6xl md:text-7xl font-bold mb-6 text-white">
-            Get in <span className="text-primary-600">Touch</span>
+          <h1 className="font-serif text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight mb-6">
+            <span className="text-gray-700">Get in</span>{" "}
+            <span className="text-teal-500 drop-shadow-[0_0_12px_rgba(20,184,166,0.25)]">Touch</span>
           </h1>
-          <p className="font-sans text-lg text-gray-700">
+          <p className="font-sans text-lg text-gray-700 mb-4">
             Connect with our technical team for inquiries, quotes, and consultation
           </p>
         </div>

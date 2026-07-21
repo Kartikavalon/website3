@@ -21,10 +21,11 @@ export default function Industries() {
       {/* Hero */}
       <section className="pt-32 pb-20 px-4 bg-gradient-industrial">
         <div className="container mx-auto max-w-5xl text-center">
-          <h1 className="font-serif text-6xl md:text-7xl font-bold mb-6 text-white">
-            Industries <span className="text-primary-400 drop-shadow-[0_0_20px_rgba(20,184,166,0.5)]">Served</span>
+          <h1 className="font-serif text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight mb-6">
+            <span className="text-gray-700">Industries</span>{" "}
+            <span className="text-teal-500 drop-shadow-[0_0_12px_rgba(20,184,166,0.25)]">Served</span>
           </h1>
-          <p className="font-sans text-lg text-gray-700">
+          <p className="font-sans text-lg text-gray-700 mb-4">
             Specialized materials for diverse, cutting-edge industrial applications
           </p>
         </div>
